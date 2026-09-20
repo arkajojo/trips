@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Treena, Swapnadeep & Ayanshi in Singapore — 18 to 31 October 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f5f8f3; --ink:#1b2a23; --muted:#5a6b62; --line:#d6ded8;
+  --jade:#0f7b6c; --jade-soft:#dff0ec; --hibiscus:#c8395f; --hibiscus-soft:#fbe4ea;
+  --mustard:#d99a12; --mustard-soft:#fdf1cf; --sky:#2b6cb0; --sky-soft:#e1ecf8; --card:#ffffff;
+  --ns:#d42e12; --ew:#009645; --ne:#9900aa; --cc:#fa9e0d; --dt:#005ec4; --te:#9d5b25;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#131d18; --ink:#e8efe9; --muted:#9fb0a6; --line:#2c3a33;
+    --jade:#4fc3ad; --jade-soft:#17322c; --hibiscus:#f07a98; --hibiscus-soft:#3a1f28;
+    --mustard:#f2bc3d; --mustard-soft:#3a2f12; --sky:#7fb3ef; --sky-soft:#1c2c3f; --card:#1a2620;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#131d18; --ink:#e8efe9; --muted:#9fb0a6; --line:#2c3a33;
+  --jade:#4fc3ad; --jade-soft:#17322c; --hibiscus:#f07a98; --hibiscus-soft:#3a1f28;
+  --mustard:#f2bc3d; --mustard-soft:#3a2f12; --sky:#7fb3ef; --sky-soft:#1c2c3f; --card:#1a2620;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Karla,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.55}
+main{max-width:720px;margin:0 auto;padding:0 18px 80px}
+h1,h2,h3,h4{font-family:Fraunces,Georgia,"Times New Roman",serif;line-height:1.15;margin:0}
+h1{font-size:2.3rem;font-weight:700;letter-spacing:-.01em}
+h2{font-size:1.65rem;font-weight:700;margin:54px 0 14px;padding-top:8px;border-top:3px solid var(--jade)}
+h3{font-size:1.25rem;font-weight:700;margin:22px 0 8px}
+h4{font-size:1.05rem;font-weight:700;margin:14px 0 4px;font-family:Karla,sans-serif}
+p{margin:0 0 12px}
+a{color:var(--jade)}
+ul,ol{margin:0 0 12px;padding-left:22px}
+li{margin:4px 0}
+strong{font-weight:700}
+.hero{padding:34px 0 22px;position:relative}
+.tiles{height:14px;margin:0 -18px 26px;background:
+ repeating-linear-gradient(90deg,var(--jade) 0 24px,var(--hibiscus) 24px 48px,var(--mustard) 48px 72px,var(--jade-soft) 72px 96px)}
+.hero p.lead{font-size:1.15rem;color:var(--muted);margin-top:12px;max-width:34em}
+.dates{display:inline-block;margin-top:14px;padding:6px 12px;border:1.5px solid var(--jade);border-radius:999px;font-weight:700;color:var(--jade)}
+nav.jump{display:flex;gap:8px;overflow-x:auto;padding:14px 0 6px;scrollbar-width:none;position:sticky;top:0;background:var(--paper);z-index:5;border-bottom:1px solid var(--line)}
+nav.jump::-webkit-scrollbar{display:none}
+nav.jump a{flex:0 0 auto;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);padding:6px 12px;border-radius:999px;font-size:.9rem;font-weight:500;white-space:nowrap}
+nav.jump a:focus-visible,details summary:focus-visible{outline:3px solid var(--mustard);outline-offset:2px}
+.strip{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin:16px 0 8px}
+.strip a{display:block;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 4px;text-align:center;font-size:.72rem;line-height:1.25}
+.strip a b{display:block;font-size:1.05rem;font-family:Fraunces,serif}
+.strip a.bl{border-color:var(--jade);background:var(--jade-soft)}
+.strip a.solo{border-color:var(--hibiscus);background:var(--hibiscus-soft)}
+.strip a.fam{border-color:var(--sky);background:var(--sky-soft)}
+.legend{font-size:.85rem;color:var(--muted);margin-bottom:8px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px;margin:0 4px 0 10px;border:1px solid var(--line)}
+.day{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:16px 0;overflow:hidden}
+.day.fam{border-color:var(--sky)}
+.day summary{list-style:none;cursor:pointer;padding:16px 18px;display:flex;align-items:baseline;gap:12px}
+.day summary::-webkit-details-marker{display:none}
+.day summary .n{font-family:Fraunces,serif;font-size:1.7rem;font-weight:700;color:var(--jade);min-width:2.2em}
+.day.fam summary .n{color:var(--sky)}
+.day summary .t{flex:1}
+.day summary .t b{display:block;font-family:Fraunces,serif;font-size:1.2rem}
+.day summary .t span{color:var(--muted);font-size:.92rem}
+.day summary::after{content:"+";font-size:1.5rem;color:var(--muted);align-self:center}
+.day[open] summary::after{content:"–"}
+.day .body{padding:0 18px 18px;border-top:1px dashed var(--line)}
+.slot{display:grid;grid-template-columns:64px 1fr;gap:10px;margin:14px 0}
+.slot .when{font-weight:700;color:var(--jade);font-size:.92rem;padding-top:2px}
+.slot .what p{margin-bottom:6px}
+.go{background:var(--jade-soft);border-radius:10px;padding:10px 12px;margin:10px 0;font-size:.95rem}
+.go b{color:var(--jade)}
+.aya{background:var(--mustard-soft);border-left:4px solid var(--mustard);border-radius:0 10px 10px 0;padding:10px 12px;margin:12px 0;font-size:.95rem}
+.aya b{color:var(--mustard)}
+.eat{background:var(--hibiscus-soft);border-radius:10px;padding:10px 12px;margin:10px 0;font-size:.95rem}
+.eat b{color:var(--hibiscus)}
+.us{background:var(--sky-soft);border-radius:10px;padding:10px 12px;margin:10px 0;font-size:.95rem}
+.us b{color:var(--sky)}
+.opt{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--hibiscus);border:1px solid var(--hibiscus);border-radius:4px;padding:0 6px;margin-right:7px;vertical-align:2px}
+.rain{color:var(--muted);font-size:.9rem;margin-top:10px}
+.pins{margin-top:14px;border-top:1px dashed var(--line);padding-top:10px}
+.pins h4{margin:0 0 6px;font-size:.95rem}
+.pins ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr;gap:4px}
+@media (min-width:560px){.pins ul{grid-template-columns:1fr 1fr}}
+.pins li{font-size:.9rem;margin:0;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.pins li span{flex:1 1 60%}
+.pins a{white-space:nowrap;font-weight:700;text-decoration:none;border:1px solid var(--jade);border-radius:999px;padding:1px 9px;font-size:.8rem}
+.mrt{display:inline-block;color:#fff;font-weight:700;font-size:.78rem;padding:1px 7px;border-radius:5px;margin:0 2px;vertical-align:1px;letter-spacing:.02em}
+.ns{background:var(--ns)}.ew{background:var(--ew)}.ne{background:var(--ne)}.cc{background:var(--cc);color:#1b2a23}.dt{background:var(--dt)}.te{background:var(--te)}
+table{width:100%;border-collapse:collapse;font-size:.93rem;margin:10px 0 16px}
+th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:700;color:var(--jade)}
+.check li{list-style:none;position:relative;padding-left:26px}
+.check li::before{content:"";position:absolute;left:0;top:6px;width:15px;height:15px;border:2px solid var(--jade);border-radius:4px}
+.note{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:14px 0}
+.warn{border-color:var(--hibiscus)}
+.small{font-size:.9rem;color:var(--muted)}
+.two{display:grid;grid-template-columns:1fr;gap:10px}
+@media (min-width:560px){.two{grid-template-columns:1fr 1fr}}
+.flights{display:grid;grid-template-columns:1fr;gap:10px;margin:12px 0}
+@media (min-width:560px){.flights{grid-template-columns:1fr 1fr 1fr}}
+.flight{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:.92rem}
+.flight b{display:block;font-family:Fraunces,serif;font-size:1.1rem;margin-bottom:4px}
+footer{margin-top:60px;font-size:.88rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+
+@media print{
+  :root{--paper:#fff;--card:#fff}
+  body{font-size:11pt}
+  nav.jump{display:none}
+  .day{break-inside:auto;border:none;border-top:2px solid var(--jade);border-radius:0;margin:24px 0 0}
+  .day summary{padding:10px 0;break-after:avoid}
+  .day summary::after{content:none}
+  .day .body{padding:0 0 10px;border-top:none}
+  .slot,.aya,.eat,.us,.go,.note{break-inside:avoid}
+  h2{break-after:avoid;margin-top:28px}
+  a{color:inherit;text-decoration:none}
+  .pins a{color:var(--jade)}
+  .strip a{font-size:.62rem}
+}
+</style>
+</head>
+<body>
+<main>
+
+<div class="tiles"></div>
+<header class="hero">
+  <h1>Treena, Swapnadeep &amp; Ayanshi<br>do Singapore</h1>
+  <p class="lead">Fourteen days planned hour by hour — what to see, what to eat, which MRT exit to take, and what will make a ten‑year‑old talk about this trip for years. Nothing Indian; that's what home is for.</p>
+  <span class="dates">Sun 18 Oct → Sat 31 Oct 2026 · Swapnadeep flies home Sat 24 Oct</span>
+</header>
+
+<nav class="jump" aria-label="Sections">
+  <a href="#glance">At a glance</a>
+  <a href="#flights">Flights</a>
+  <a href="#before">Before you fly</a>
+  <a href="#around">Getting around</a>
+  <a href="#days">Day by day</a>
+  <a href="#food">Food list</a>
+  <a href="#ayanshi">Ayanshi's list</a>
+  <a href="#pack">Pack &amp; weather</a>
+  <a href="#help">Help &amp; apps</a>
+  <a href="photos.html">📷 Photos</a>
+  <a href="itinerary.pdf">PDF</a>
+</nav>
+
+<!-- ============ AT A GLANCE ============ -->
+<h2 id="glance">The trip at a glance</h2>
+<p>Weekdays are the three of you (later, the two of you) on the MRT with a loaded plan. Weekends are with Arka and Nanki — and on Sunday the dogs — for the slower, more local Singapore: a ridge walk to the cable car, a beach afternoon, a farewell at the airport. Universal Studios waits until Swapnadeep has left.</p>
+<div class="legend">Tap a date to jump. <i style="background:var(--jade-soft)"></i>all three, on your own <i style="background:var(--sky-soft)"></i>with Arka &amp; Nanki <i style="background:var(--hibiscus-soft)"></i>Treena &amp; Ayanshi</div>
+<div class="strip">
+  <a class="fam" href="#d1"><b>18</b>Sun<br>Land · Jewel · Orchard stroll</a>
+  <a class="bl" href="#d2"><b>19</b>Mon<br>Marina Bay, all of it</a>
+  <a class="bl" href="#d3"><b>20</b>Tue<br>Zoo · Night Safari</a>
+  <a class="bl" href="#d4"><b>21</b>Wed<br>Tiong Bahru · museum · Chinatown by night</a>
+  <a class="bl" href="#d5"><b>22</b>Thu<br>Sentosa (no USS)</a>
+  <a class="bl" href="#d6"><b>23</b>Fri<br>Birds · river · crab</a>
+  <a class="fam" href="#d7"><b>24</b>Sat<br>Henderson · cable car · Labrador · send‑off</a>
+  <a class="fam" href="#d8"><b>25</b>Sun<br>Dawn beach with the dogs · East Coast</a>
+  <a class="solo" href="#d9"><b>26</b>Mon<br>Universal Studios</a>
+  <a class="solo" href="#d10"><b>27</b>Tue<br>KidZania · go‑karts · K‑BBQ</a>
+  <a class="solo" href="#d11"><b>28</b>Wed<br>Science · snow</a>
+  <a class="solo" href="#d12"><b>29</b>Thu<br>NUS · dinosaurs · Casa Vostra</a>
+  <a class="solo" href="#d13"><b>30</b>Fri<br>MacRitchie · Omote · Arab Street</a>
+  <a class="fam" href="#d14"><b>31</b>Sat<br>Botanic Gardens · Osteria · Jewel · fly home</a>
+</div>
+<div class="note">
+<p><strong>Three things that shape the plan.</strong></p>
+<ul>
+<li><strong>They land at 6.30am on a Sunday</strong> off a red‑eye, so Day 1 is Jewel, a nap, and an easy Orchard Road stroll with all of you — the first real sightseeing starts Monday.</li>
+<li><strong>Halloween Horror Nights runs at Universal on 22–24 and 29–31 Oct</strong>: not for under‑13s and the park closes early on those nights. Universal is therefore <strong>Mon 26 Oct</strong>, a full‑hours weekday, and the daytime "Trick or Thrills" family Halloween (running until 1 Nov) means Ayanshi still gets her Halloween.</li>
+<li><strong>Both departures are the 8.40pm SQ516 from Terminal 3</strong>, so each Saturday's plan finishes at Changi by 6pm with time for Jewel on the way through.</li>
+</ul>
+</div>
+
+<!-- ============ FLIGHTS ============ -->
+<h2 id="flights">Flights</h2>
+<div class="flights">
+<div class="flight"><b>In — all three</b>SQ517 Kolkata 23.40 Sat 17 Oct → Changi <strong>06.30 Sun 18 Oct</strong>. Airbus A350, 4h20.</div>
+<div class="flight"><b>Out — Swapnadeep</b>SQ516 Changi <strong>Terminal 3, 20.40 Sat 24 Oct</strong> → Kolkata 22.15.</div>
+<div class="flight"><b>Out — Treena &amp; Ayanshi</b>SQ516 Changi <strong>Terminal 3, 20.40 Sat 31 Oct</strong> → Kolkata 22.25.</div>
+</div>
+<ul>
+<li><strong>Baggage:</strong> 25kg checked each, both ways — room for the shopping.</li>
+<li><strong>Online check‑in</strong> opens 48 hours before each flight (6.30am Singapore time on Thu 22 Oct for Swapnadeep, Thu 29 Oct for the girls). Do it on the phone; Changi's early bag‑drop then frees the departure day.</li>
+<li>Singapore Airlines arrivals use T2 or T3 — check the Changi app the night before so Arka waits at the right arrival hall.</li>
+<li>Treena's return fare is Economy Lite (seat selection chargeable, no changes); Swapnadeep's is Economy Value (changeable for a fee). Worth knowing only if plans shift.</li>
+</ul>
+
+<!-- ============ BEFORE YOU FLY ============ -->
+<h2 id="before">Before they fly</h2>
+<ul>
+<li><strong>Visa.</strong> Indian passport holders need a Singapore visa before travel — no visa on arrival. Apply through an ICA‑authorised visa agent in India; it's usually issued as an e‑visa within a few working days, but apply now. Confirm current rules on ica.gov.sg.</li>
+<li><strong>SG Arrival Card.</strong> Free, mandatory, filed online at eservices.ica.gov.sg <strong>within 3 days before arrival</strong> — so on or after Thu 15 Oct. One per person including Ayanshi. Screenshot the acknowledgement; it also unlocks the automated immigration lanes.</li>
+<li><strong>Passports</strong> valid at least six months beyond 31 Oct.</li>
+<li><strong>Travel insurance</strong> with medical cover.</li>
+<li><strong>Phones:</strong> install Grab and Google Maps before flying; Arka has the SIMs and transport cards covered, so they're connected from the arrival hall.</li>
+<li><strong>Heights:</strong> measure Ayanshi in shoes and note it — ride and go‑kart minimums are in centimetres here (1.00 / 1.07 / 1.22 / 1.30 are the ones that matter).</li>
+</ul>
+
+<!-- ============ GETTING AROUND ============ -->
+<h2 id="around">Getting around on your own</h2>
+<p>Arka will hand each of you a loaded <strong>EZ‑Link card</strong>: tap in and out at MRT gates, tap on <em>and off</em> buses. Ayanshi needs her own card (free travel is only for under‑7s). Top‑ups are at any station machine or 7‑Eleven. Google Maps gives door‑to‑door MRT and bus directions here, including which exit to use; trains run roughly 5.30am to midnight, every station has lifts and toilets, and everything is air‑conditioned.</p>
+<h3>Using Google Maps here (weekdays, on your own)</h3>
+<ul>
+<li>Every day below ends with a <strong>Pins</strong> list. Tap <strong>Map</strong> to see where it is, or <strong>Go</strong> to open transit directions from wherever you're standing — Maps knows Singapore's MRT, LRT and every bus route, with live timings.</li>
+<li>In directions, pick the <strong>train icon</strong> (transit). Maps names the line, the platform direction, the number of stops and, at the end, the <strong>station exit letter</strong> — follow that letter on the yellow signs inside the station.</li>
+<li>Tap <strong>Depart at</strong> to plan the evening trips: last trains leave the city around 11.30pm–midnight.</li>
+<li>Before Day 2, download an <strong>offline map</strong> of Singapore (Maps → your photo → Offline maps) so it works in the MRT tunnels and in the MacRitchie forest.</li>
+<li>Save each day's pins to a Maps list ("Singapore trip") the night before; then you just tap the next star.</li>
+<li>When walking looks long or it's pouring, the <strong>Grab</strong> app will show a fare in seconds — Arka's card is on the account.</li>
+</ul>
+<h3>The MRT lines you'll actually use</h3>
+<ul>
+<li><span class="mrt ew">EW East–West (green)</span> Changi Airport · Tanah Merah · Bugis · City Hall · Raffles Place · Jurong East</li>
+<li><span class="mrt ns">NS North–South (red)</span> Khatib (Mandai parks) · Orchard · City Hall · Marina Bay</li>
+<li><span class="mrt ne">NE North East (purple)</span> HarbourFront (Sentosa) · Chinatown · Clarke Quay</li>
+<li><span class="mrt cc">CC Circle (orange)</span> HarbourFront · Labrador Park · Kent Ridge (NUS) · Botanic Gardens · Bayfront · Promenade (Flyer)</li>
+<li><span class="mrt dt">DT Downtown (blue)</span> Bayfront (Gardens/MBS) · Bugis · Botanic Gardens</li>
+<li><span class="mrt te">TE Thomson–East Coast (brown)</span> Orchard · Marine Parade &amp; Katong Park (East Coast)</li>
+</ul>
+<p><strong>Grab</strong> is the Uber here: use GrabCar for the three of you when it rains, when it's late, or when you're carrying beach bags. Sentosa and Mandai each have their own last‑mile link, described on the day.</p>
+<div class="note warn">
+<p><strong>Rules that catch visitors out.</strong> No eating or drinking on trains and buses, including water. Vapes and e‑cigarettes are illegal to bring in or hold. No chewing gum. Jaywalking, littering and smoking outside marked zones are fined. Drug offences carry the death penalty; never carry anything for anyone. Tap water is safe to drink. Tipping isn't expected.</p>
+</div>
+
+<!-- ============ DAY BY DAY ============ -->
+<h2 id="days">Day by day</h2>
+<p class="small">Anything tagged <span class="opt">Optional</span> can be dropped without losing the day — if they're tired, drop it. Every day has a rain plan, because October afternoons often bring a one‑hour thunderstorm. Where you're on your own, the transport line tells you the station and exit; on weekend days Arka drives.</p>
+
+<details class="day fam" id="d1" open>
+<summary><span class="n">1</span><span class="t"><b>Sunday 18 Oct — Land at dawn, Jewel, a nap, then an Orchard Road stroll</b><span>With Arka &amp; Nanki · Rain Vortex · 313@Somerset to ION · Bacha Coffee · Din Tai Fung</span></span></summary>
+<div class="body">
+<div class="slot"><div class="when">06.30</div><div class="what">
+<p>Wheels down. Automated lanes with the SG Arrival Card, bags, and out to the arrival hall by about 7.30 where Arka is waiting with SIMs and EZ‑Link cards.</p>
+</div></div>
+<div class="slot"><div class="when">07.45</div><div class="what">
+<p>Walk over to <strong>Jewel</strong> (linked to T1, T2 and T3 by walkways).</p>
+<div class="eat"><b>Breakfast:</b> <strong>Ya Kun Kaya Toast</strong> — kaya toast, soft‑boiled eggs with soy and pepper, kopi — the Singapore breakfast, done on hour one.</div>
+<p>The <strong>HSBC Rain Vortex</strong>, the world's tallest indoor waterfall, switches on mid‑morning; if it's running, stand at the base, then ride the escalators up through the Forest Valley terraces. Save Canopy Park for the last day.</p>
+</div></div>
+<div class="slot"><div class="when">10.30</div><div class="what">
+<p>Home. Showers, a proper nap, lunch at leisure. Nothing scheduled until late afternoon — the body clock is only 2.5 hours off but the night was short.</p>
+</div></div>
+<div class="slot"><div class="when">16.00</div><div class="what">
+<div class="us"><b>All of you:</b> the <strong>Orchard Road stroll</strong>, east to west under the rain trees. Start at <span class="mrt ns">NS</span><span class="mrt te">TE</span> Somerset: <strong>313@Somerset</strong> (Uniqlo, Zara, the Food Republic upstairs for later), across to <strong>Design Orchard</strong> for Singapore‑made gifts, then the long covered walk past Paragon and Takashimaya to <strong>ION Orchard</strong>. It's the gentlest possible first afternoon: flat, shaded, air‑conditioned every 200 metres.</div>
+</div></div>
+<div class="slot"><div class="when">17.30</div><div class="what">
+<div class="eat"><b>Coffee:</b> <strong>Bacha Coffee</strong> at ION — the gold‑and‑marble 1910 Marrakech coffee room, a pot of one of 200 single‑origin coffees poured tableside, croissants with whipped vanilla cream; Ayanshi's hot chocolate arrives with the same ceremony. There's usually a queue; 5.30 on a Sunday is a good moment.</div>
+</div></div>
+<div class="slot"><div class="when">19.00</div><div class="what">
+<div class="eat"><b>Dinner:</b> <strong>Din Tai Fung</strong> at Paragon (across the road) — xiao long bao (18 folds, watch them being made through the glass), fried rice with pork chop, cucumber salad. Home by 9; big day tomorrow.</div>
+</div></div>
+<div class="aya"><b>Ayanshi's moment:</b> the Rain Vortex at breakfast, then hot chocolate poured from a golden pot.</div>
+<p class="rain">Rain plan: Jewel and Orchard are indoors end to end. Nothing to change.</p>
+<div class="pins"><h4>Pins for today</h4><ul><li><span>Jewel Changi Airport</span><a href="https://www.google.com/maps/search/?api=1&query=Jewel%20Changi%20Airport" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Jewel%20Changi%20Airport&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Ya Kun Kaya Toast, Jewel</span><a href="https://www.google.com/maps/search/?api=1&query=Ya%20Kun%20Kaya%20Toast%20Jewel%20Changi" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Ya%20Kun%20Kaya%20Toast%20Jewel%20Changi&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>313@Somerset</span><a href="https://www.google.com/maps/search/?api=1&query=313%40Somerset" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=313%40Somerset&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Design Orchard</span><a href="https://www.google.com/maps/search/?api=1&query=Design%20Orchard" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Design%20Orchard&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Bacha Coffee, ION Orchard</span><a href="https://www.google.com/maps/search/?api=1&query=Bacha%20Coffee%20ION%20Orchard" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Bacha%20Coffee%20ION%20Orchard&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Din Tai Fung, Paragon</span><a href="https://www.google.com/maps/search/?api=1&query=Din%20Tai%20Fung%20Paragon%20Orchard" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Din%20Tai%20Fung%20Paragon%20Orchard&travelmode=transit" target="_blank" rel="noopener">Go</a></li></ul></div>
+</div>
+</details>
+
+<details class="day" id="d2">
+<summary><span class="n">2</span><span class="t"><b>Monday 19 Oct — Marina Bay, all of it in one day</b><span>Merlion · Cloud Forest &amp; Flower Dome · Skyway · Future World · SkyPark deck at sunset · Garden Rhapsody · Spectra</span></span></summary>
+<div class="body">
+<div class="go"><b>Get there:</b> <span class="mrt ew">EW</span><span class="mrt ns">NS</span> Raffles Place, Exit H, 8 minutes' walk along the river past the Fullerton Hotel to the Merlion. Later in the day everything is a walk apart; <span class="mrt dt">DT</span><span class="mrt cc">CC</span> Bayfront is the station home.</div>
+<div class="slot"><div class="when">08.45</div><div class="what">
+<p><strong>Merlion Park</strong> — the first skyline photos while the light is soft and the crowds thin. Then the waterfront loop: past the Esplanade, over the <strong>Helix Bridge</strong> (Ayanshi finds the DNA letters lit into it) and along the Marina Bay Sands boardwalk to Gardens by the Bay. Thirty minutes with stops.</p>
+</div></div>
+<div class="slot"><div class="when">10.00</div><div class="what">
+<p><strong>Cloud Forest</strong> first while it's cool — the 35‑metre indoor waterfall, the Cloud Walk skybridge, the Lost World at the top — then the <strong>Flower Dome</strong>. About 2.5 hours for both. Then the <strong>OCBC Skyway</strong>, 22 metres up between the Supertrees.</p>
+</div></div>
+<div class="slot"><div class="when">13.00</div><div class="what">
+<div class="eat"><b>Lunch:</b> <strong>Satay by the Bay</strong>, the hawker centre inside the Gardens — satay, BBQ stingray, a plate of char kway teow, sugarcane juice — or <strong>Rasapura Masters</strong> in the Marina Bay Sands basement for air‑con.</div>
+</div></div>
+<div class="slot"><div class="when">14.30</div><div class="what">
+<p><span class="opt">Optional</span><strong>Future World</strong> at the ArtScience Museum (teamLab): Ayanshi colours a fish or a car on paper, scans it, and watches it swim onto the wall; the Crystal Universe room is the finale. 1.5 hours. If the morning has already been a lot, skip this, ride a <strong>sampan</strong> on the Shoppes' indoor canal instead and sit down somewhere cold for an hour.</p>
+</div></div>
+<div class="slot"><div class="when">17.45</div><div class="what">
+<p><strong>Sands SkyPark Observation Deck</strong> — the deck on top of the "ship", 57 floors up. Book the 5.45 entry so you get the city in daylight, the sunset around 6.55, and the lights coming on below. The Flyer is not needed; this is the view.</p>
+</div></div>
+<div class="slot"><div class="when">19.15</div><div class="what">
+<div class="eat"><b>Dinner:</b> <strong>Makansutra Gluttons Bay</strong> beside the Esplanade — open‑air hawker stalls with the skyline behind. Fried carrot cake (a radish omelette), oyster omelette, Hokkien mee, BBQ chicken wings.</div>
+</div></div>
+<div class="slot"><div class="when">20.45</div><div class="what">
+<p><strong>Garden Rhapsody</strong> at the Supertree Grove — free, 15 minutes, the 8.45pm show. Lie flat on the grass under the trees. Then 10 minutes' walk to the Event Plaza in front of Marina Bay Sands for <strong>Spectra</strong>, the free water‑laser‑fountain show at 9pm (or catch the 7.45 Rhapsody and the 8pm Spectra and eat afterwards — either order works).</p>
+</div></div>
+<div class="aya"><b>Ayanshi's moment:</b> her drawing swimming across a wall, then a forest of glowing trees singing at night.</div>
+<div class="go"><b>Getting home:</b> <span class="mrt dt">DT</span><span class="mrt cc">CC</span> Bayfront, under the Shoppes, 5 minutes from Event Plaza.</div>
+<p class="rain">Rain plan: the domes, the museum, the Shoppes and the deck are indoors; the light shows run unless there's lightning, and repeat every night if you miss them.</p>
+<div class="pins"><h4>Pins for today</h4><ul><li><span>Raffles Place MRT</span><a href="https://www.google.com/maps/search/?api=1&query=Raffles%20Place%20MRT%20Station" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Raffles%20Place%20MRT%20Station&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Merlion Park</span><a href="https://www.google.com/maps/search/?api=1&query=Merlion%20Park" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Merlion%20Park&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Helix Bridge</span><a href="https://www.google.com/maps/search/?api=1&query=Helix%20Bridge" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Helix%20Bridge&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Cloud Forest, Gardens by the Bay</span><a href="https://www.google.com/maps/search/?api=1&query=Cloud%20Forest%20Gardens%20by%20the%20Bay" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Cloud%20Forest%20Gardens%20by%20the%20Bay&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>OCBC Skyway</span><a href="https://www.google.com/maps/search/?api=1&query=OCBC%20Skyway" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=OCBC%20Skyway&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Satay by the Bay</span><a href="https://www.google.com/maps/search/?api=1&query=Satay%20by%20the%20Bay" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Satay%20by%20the%20Bay&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>ArtScience Museum (Future World)</span><a href="https://www.google.com/maps/search/?api=1&query=ArtScience%20Museum%20Singapore" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=ArtScience%20Museum%20Singapore&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Sands SkyPark Observation Deck</span><a href="https://www.google.com/maps/search/?api=1&query=Sands%20SkyPark%20Observation%20Deck" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Sands%20SkyPark%20Observation%20Deck&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Makansutra Gluttons Bay</span><a href="https://www.google.com/maps/search/?api=1&query=Makansutra%20Gluttons%20Bay" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Makansutra%20Gluttons%20Bay&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Supertree Grove (Garden Rhapsody)</span><a href="https://www.google.com/maps/search/?api=1&query=Supertree%20Grove%20Gardens%20by%20the%20Bay" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Supertree%20Grove%20Gardens%20by%20the%20Bay&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Event Plaza, MBS (Spectra)</span><a href="https://www.google.com/maps/search/?api=1&query=Event%20Plaza%20Marina%20Bay%20Sands" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Event%20Plaza%20Marina%20Bay%20Sands&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Bayfront MRT</span><a href="https://www.google.com/maps/search/?api=1&query=Bayfront%20MRT%20Station" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Bayfront%20MRT%20Station&travelmode=transit" target="_blank" rel="noopener">Go</a></li></ul></div>
+</div>
+</details>
+
+<details class="day" id="d3">
+<summary><span class="n">3</span><span class="t"><b>Tuesday 20 Oct — Mandai: Zoo by day, safari by night</b><span>Singapore Zoo · River Wonders · Night Safari</span></span></summary>
+<div class="body">
+<div class="go"><b>Get there:</b> <span class="mrt ns">NS</span> Khatib, Exit A → <strong>Mandai Khatib Shuttle</strong> (tap EZ‑Link, every 10–20 min, 15 min ride). Leave home by 8 to walk in when gates open at 8.30.</div>
+<div class="slot"><div class="when">08.30</div><div class="what">
+<p><strong>Singapore Zoo</strong>, open‑concept, no cages. In order: the Fragile Forest walkthrough (lemurs and flying foxes at arm's length), the orangutan boardwalk, the giraffe and elephant feeding sessions (times on the board, usually late morning), the <strong>Splash Safari</strong> sea‑lion show around 10.30 and <strong>Rainforest Fights Back</strong> around 12.30. Ride the tram once to save legs; Rainforest Kidzworld has a water‑play area if Ayanshi needs to cool off (swimwear under clothes).</p>
+</div></div>
+<div class="slot"><div class="when">13.00</div><div class="what">
+<div class="eat"><b>Lunch:</b> Ah Meng Restaurant inside the Zoo, or the stalls at Mandai Wildlife West outside the gates.</div>
+</div></div>
+<div class="slot"><div class="when">14.00</div><div class="what">
+<p><span class="opt">Optional</span><strong>River Wonders</strong> next door: the <strong>Amazon River Quest</strong> boat ride (minimum 1.06m), the manatees in the flooded‑forest tank, the giant pandas' forest (check on the day that they're still on exhibit). About 2.5 hours. If everyone is fading, drop this and rest at Wildlife West — tonight matters more.</p>
+</div></div>
+<div class="slot"><div class="when">17.00</div><div class="what">
+<div class="eat"><b>Early dinner:</b> Ulu Ulu Safari Restaurant at Night Safari, before the queues form.</div>
+</div></div>
+<div class="slot"><div class="when">19.15</div><div class="what">
+<p><strong>Night Safari</strong>, the world's first nocturnal zoo. Enter at the first slot, go straight to the <strong>tram</strong> (40‑minute loop past elephants, hyenas, and deer that wander up to the tram), then the <strong>Creatures of the Night</strong> show at the booked time, then the Fishing Cat and Leopard trails on foot. Three hours. No flash.</p>
+</div></div>
+<div class="aya"><b>Ayanshi's moment:</b> the tram in the dark when the first animals appear a couple of metres away with no fence in sight.</div>
+<div class="go"><b>Getting home:</b> the shuttle back to Khatib runs until about 11pm; Arka can also collect you from the taxi stand at 10.30.</div>
+<p class="rain">Rain plan: the parks lend ponchos and the animals are livelier after a shower; shows pause for lightning and resume.</p>
+<div class="pins"><h4>Pins for today</h4><ul><li><span>Khatib MRT (shuttle from Exit A)</span><a href="https://www.google.com/maps/search/?api=1&query=Khatib%20MRT%20Station" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Khatib%20MRT%20Station&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Singapore Zoo</span><a href="https://www.google.com/maps/search/?api=1&query=Singapore%20Zoo" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Singapore%20Zoo&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>River Wonders</span><a href="https://www.google.com/maps/search/?api=1&query=River%20Wonders%20Singapore" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=River%20Wonders%20Singapore&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Night Safari</span><a href="https://www.google.com/maps/search/?api=1&query=Night%20Safari%20Singapore" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Night%20Safari%20Singapore&travelmode=transit" target="_blank" rel="noopener">Go</a></li></ul></div>
+
+</div>
+</details>
+
+<details class="day" id="d4">
+<summary><span class="n">4</span><span class="t"><b>Wednesday 21 Oct — Tiong Bahru, the museum, then Chinatown after dark</b><span>Art‑deco estate · market breakfast · Tiong Bahru Bakery · National Museum · temple at dusk · VR · roast duck</span></span></summary>
+<div class="body">
+<div class="go"><b>Get there:</b> <span class="mrt ew">EW</span> Tiong Bahru, Exit A, 5 minutes to the market.</div>
+<div class="slot"><div class="when">09.00</div><div class="what">
+<div class="eat"><b>Second breakfast at Tiong Bahru Market</b> (the hawker floor upstairs): <strong>Jian Bo chwee kueh</strong> (steamed rice cakes with preserved radish — the stall that made them famous), <strong>178 lor mee</strong>, and a kopi. Locals only, at this hour.</div>
+<p>Then the <strong>Tiong Bahru walk</strong>: Singapore's oldest housing estate, 1930s art‑deco blocks with rounded balconies and spiral back stairs, the wartime air‑raid shelter under Block 78, the <strong>Yip Yew Chong murals</strong> (a bird‑singing corner, a pasar, a fortune teller) on Seng Poh, Eng Hoon and Eu Chin Streets, the <strong>Qi Tian Gong</strong> monkey‑god temple, the little independent shops on Yong Siak Street. An hour, flat, mostly shaded.</p>
+</div></div>
+<div class="slot"><div class="when">11.00</div><div class="what">
+<div class="eat"><b>End at Tiong Bahru Bakery</b> on Eng Hoon Street — the original branch: the kouign‑amann, a pain au chocolat, and a cold brew at the pavement tables.</div>
+</div></div>
+<div class="slot"><div class="when">12.30</div><div class="what">
+<p><strong>National Museum of Singapore</strong> (<span class="mrt ne">NE</span> Dhoby Ghaut, Exit A, or <span class="mrt cc">CC</span> Bras Basah; 5 minutes' walk). The Singapore History Gallery does 700 years in an hour with a good audio guide; upstairs, <strong>Story of the Forest</strong> is a walk‑through digital animation of 19th‑century natural‑history drawings Ayanshi will want to do twice. Lunch at the museum café or Food Opera at ION on the way if the bakery wasn't enough.</p>
+</div></div>
+<div class="slot"><div class="when">15.00</div><div class="what">
+<p><span class="opt">Optional</span>Two hours at home to rest — Chinatown is better after four anyway. Or stay on and see the rotating exhibition.</p>
+</div></div>
+<div class="slot"><div class="when">16.15</div><div class="what">
+<p><strong>Chinatown</strong>, <span class="mrt ne">NE</span><span class="mrt dt">DT</span> Chinatown, Exit A, onto Pagoda Street. Go straight to the <strong>Buddha Tooth Relic Temple</strong> before it closes at 5 (free; shoulders and knees covered; ask for the rooftop orchid garden and the giant prayer wheel), then <strong>Sri Mariamman</strong> next door, the oldest Hindu temple in the city — worth two minutes for its gopuram alone.</p>
+<p><strong>Shopping as the lanterns come on:</strong> the Pagoda Street and Trengganu Street stalls for magnets, silk, batik and cheap Halloween costume bits; <strong>Yue Hwa Chinese Products</strong> on Eu Tong Sen Street (five floors of tea, silk, jade, calligraphy sets — the proper emporium, open till 9); the <strong>Chinatown Complex</strong> market for dried goods and teas to carry home. Haggle gently on the street, never in Yue Hwa.</p>
+</div></div>
+<div class="slot"><div class="when">18.15</div><div class="what">
+<p><strong>The VR arena</strong> in Chinatown — Arka is booking a session (60–90 minutes; three players is a perfect team; trainers, not sandals). Ayanshi's first full‑body VR: expect her to talk about nothing else at dinner.</p>
+</div></div>
+<div class="slot"><div class="when">20.00</div><div class="what">
+<div class="eat"><b>Dinner:</b> <strong>Noodle King</strong> for the roast duck (Arka's pick — he'll send the address). Back‑up: the <strong>Chinatown Complex Food Centre</strong> upstairs on Smith Street, the biggest hawker centre in Singapore — Hawker Chan's soya chicken, claypot rice, a plate of char kway teow — and, before home, a walk up lantern‑lit <strong>Ann Siang Hill</strong> and Club Street, the prettiest two streets in the city after dark.</div>
+</div></div>
+<div class="aya"><b>Ayanshi's moment:</b> the kouign‑amann, then VR, then lanterns.</div>
+<p class="rain">Rain plan: the museum and Yue Hwa swallow any storm; the Tiong Bahru walk has covered five‑foot ways the whole route.</p>
+<div class="pins"><h4>Pins for today</h4><ul><li><span>Tiong Bahru MRT</span><a href="https://www.google.com/maps/search/?api=1&query=Tiong%20Bahru%20MRT%20Station" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Tiong%20Bahru%20MRT%20Station&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Tiong Bahru Market</span><a href="https://www.google.com/maps/search/?api=1&query=Tiong%20Bahru%20Market" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Tiong%20Bahru%20Market&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Tiong Bahru murals, Seng Poh Rd</span><a href="https://www.google.com/maps/search/?api=1&query=Yip%20Yew%20Chong%20mural%20Tiong%20Bahru" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Yip%20Yew%20Chong%20mural%20Tiong%20Bahru&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Tiong Bahru Bakery, Eng Hoon St</span><a href="https://www.google.com/maps/search/?api=1&query=Tiong%20Bahru%20Bakery%20Eng%20Hoon%20Street" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Tiong%20Bahru%20Bakery%20Eng%20Hoon%20Street&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>National Museum of Singapore</span><a href="https://www.google.com/maps/search/?api=1&query=National%20Museum%20of%20Singapore" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=National%20Museum%20of%20Singapore&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Chinatown MRT</span><a href="https://www.google.com/maps/search/?api=1&query=Chinatown%20MRT%20Station" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Chinatown%20MRT%20Station&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Buddha Tooth Relic Temple</span><a href="https://www.google.com/maps/search/?api=1&query=Buddha%20Tooth%20Relic%20Temple" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Buddha%20Tooth%20Relic%20Temple&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Sri Mariamman Temple</span><a href="https://www.google.com/maps/search/?api=1&query=Sri%20Mariamman%20Temple" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Sri%20Mariamman%20Temple&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Yue Hwa Chinese Products</span><a href="https://www.google.com/maps/search/?api=1&query=Yue%20Hwa%20Chinese%20Products" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Yue%20Hwa%20Chinese%20Products&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>VR arena (Arka to confirm)</span><a href="https://www.google.com/maps/search/?api=1&query=VR%20arena%20Chinatown%20Singapore" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=VR%20arena%20Chinatown%20Singapore&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Noodle King (Arka to confirm)</span><a href="https://www.google.com/maps/search/?api=1&query=Noodle%20King%20Chinatown%20Singapore" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Noodle%20King%20Chinatown%20Singapore&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Chinatown Complex Food Centre</span><a href="https://www.google.com/maps/search/?api=1&query=Chinatown%20Complex%20Food%20Centre" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Chinatown%20Complex%20Food%20Centre&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Ann Siang Hill</span><a href="https://www.google.com/maps/search/?api=1&query=Ann%20Siang%20Hill" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Ann%20Siang%20Hill&travelmode=transit" target="_blank" rel="noopener">Go</a></li></ul></div>
+</div>
+</details>
+
+<details class="day" id="d5">
+<summary><span class="n">5</span><span class="t"><b>Thursday 22 Oct — Sentosa without Universal</b><span>Skyline Luge · Singapore Oceanarium · Siloso &amp; Palawan beaches · Wings of Time</span></span></summary>
+<div class="body">
+<div class="go"><b>Get there:</b> <span class="mrt ne">NE</span><span class="mrt cc">CC</span> HarbourFront, Exit E into VivoCity, up to Level 3 for the <strong>Sentosa Express</strong> monorail (tap EZ‑Link). Alight at Imbiah. The cable car is saved for Saturday with Arka.</div>
+<div class="slot"><div class="when">09.45</div><div class="what">
+<p><strong>Skyline Luge &amp; Skyride</strong>: chairlift up, gravity‑cart down through the jungle. Ayanshi drives her own luge (minimum 1.10m). Buy the four‑ride pack; nobody stops at one. Try both tracks.</p>
+</div></div>
+<div class="slot"><div class="when">11.45</div><div class="what">
+<div class="eat"><b>Lunch:</b> <strong>Trapizza</strong> (wood‑fired pizza on Siloso Beach) or <strong>Coastes</strong> next door, feet in the sand.</div>
+</div></div>
+<div class="slot"><div class="when">13.15</div><div class="what">
+<p><strong>Singapore Oceanarium</strong> at Resorts World (the reimagined S.E.A. Aquarium): the Open Ocean habitat with its enormous panel, manta rays overhead, the shark tunnel, the new deep‑sea and prehistoric zones. About 2.5 hours, fully air‑conditioned, for the hottest part of the day. Sentosa Express Beach → Resorts World.</p>
+</div></div>
+<div class="slot"><div class="when">16.15</div><div class="what">
+<p><span class="opt">Optional</span>Free <strong>beach tram</strong> to <strong>Palawan Beach</strong>: the rope suspension bridge to the "Southernmost Point of Continental Asia" lookout, then swimming and sand until the sun softens. Swimwear under clothes, towel in the bag.</p>
+</div></div>
+<div class="slot"><div class="when">18.30</div><div class="what">
+<div class="eat"><b>Dinner:</b> <strong>FOC Sentosa</strong> (Spanish, on Palawan sand — paella and croquetas) or the Beach Station food outlets for something quick before the show.</div>
+</div></div>
+<div class="slot"><div class="when">19.40</div><div class="what">
+<p><strong>Wings of Time</strong> at Beach Station: 20 minutes of water jets, lasers, fire and fireworks on the sea. Sit in the middle block.</p>
+</div></div>
+<div class="aya"><b>Ayanshi's moment:</b> steering her own luge, then fireworks over the water.</div>
+<div class="go"><b>Getting home:</b> Sentosa Express from Beach Station to VivoCity, then <span class="mrt ne">NE</span><span class="mrt cc">CC</span> HarbourFront.</div>
+<p class="rain">Rain plan: swap the order — Oceanarium in the morning, luge and beach after the storm passes (they reopen fast).</p>
+<div class="pins"><h4>Pins for today</h4><ul><li><span>VivoCity (Sentosa Express, L3)</span><a href="https://www.google.com/maps/search/?api=1&query=VivoCity%20Sentosa%20Express%20Station" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=VivoCity%20Sentosa%20Express%20Station&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Skyline Luge Sentosa</span><a href="https://www.google.com/maps/search/?api=1&query=Skyline%20Luge%20Sentosa" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Skyline%20Luge%20Sentosa&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Trapizza / Coastes, Siloso</span><a href="https://www.google.com/maps/search/?api=1&query=Trapizza%20Sentosa" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Trapizza%20Sentosa&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Singapore Oceanarium</span><a href="https://www.google.com/maps/search/?api=1&query=Singapore%20Oceanarium" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Singapore%20Oceanarium&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Palawan Beach</span><a href="https://www.google.com/maps/search/?api=1&query=Palawan%20Beach%20Sentosa" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Palawan%20Beach%20Sentosa&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Wings of Time, Beach Station</span><a href="https://www.google.com/maps/search/?api=1&query=Wings%20of%20Time%20Sentosa" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Wings%20of%20Time%20Sentosa&travelmode=transit" target="_blank" rel="noopener">Go</a></li></ul></div>
+
+</div>
+</details>
+
+<details class="day" id="d6">
+<summary><span class="n">6</span><span class="t"><b>Friday 23 Oct — Birds, rainforest, and the crab farewell</b><span>Bird Paradise · Rainforest Wild Asia · Singapore River cruise · chilli crab</span></span></summary>
+<div class="body">
+<div class="go"><b>Get there:</b> Same as Tuesday — <span class="mrt ns">NS</span> Khatib and the Mandai Khatib Shuttle — but alight at <strong>Mandai Wildlife West</strong>.</div>
+<div class="slot"><div class="when">09.00</div><div class="what">
+<p><strong>Bird Paradise.</strong> <strong>Penguin Cove</strong> (kings and gentoos in an Antarctic habitat), the <strong>Crimson Wetlands</strong> flamingos and scarlet ibis, the <strong>Predators on Wings</strong> show about 10.30 and <strong>Wings of the World</strong> about 12.30 — birds skim inches over your heads. Buy a nectar cup at the Lory Loft and Ayanshi will be wearing lorikeets within a minute. Three hours.</p>
+</div></div>
+<div class="slot"><div class="when">12.30</div><div class="what">
+<div class="eat"><b>Lunch:</b> Crimson Restaurant overlooking the flamingos, or the Wildlife West stalls.</div>
+</div></div>
+<div class="slot"><div class="when">13.45</div><div class="what">
+<p><span class="opt">Optional</span><strong>Rainforest Wild Asia</strong>, Mandai's newest park: canopy‑level walkways, the limestone Cavern, tapirs, red pandas, langurs and sun bears, and optional rope‑and‑net adventure trails for kids. 2–2.5 hours. The one park to drop if legs are gone — tonight's the farewell.</p>
+</div></div>
+<div class="slot"><div class="when">18.45</div><div class="what">
+<p><strong>Singapore River Cruise</strong> from Clarke Quay Jetty, 40 minutes in a restored bumboat. Take the 7pm sailing so you leave at dusk and come back after dark: Boat Quay shophouses, the Merlion, Marina Bay Sands and the Esplanade all lit.</p>
+<div class="go"><b>Get there:</b> <span class="mrt ne">NE</span> Clarke Quay, Exit E, 3 minutes to the jetty.</div>
+</div></div>
+<div class="slot"><div class="when">20.00</div><div class="what">
+<div class="eat"><b>Swapnadeep's farewell dinner:</b> <strong>Jumbo Seafood, Riverside Point</strong> (booked, river‑view table) — <strong>chilli crab</strong> with fried mantou buns to mop the sauce, <strong>black pepper crab</strong>, cereal prawns, kang kong with sambal. Two crabs for three people is exactly right. Alternative with the Merlion in view: <strong>Palm Beach Seafood</strong> at One Fullerton.</div>
+</div></div>
+<div class="aya"><b>Ayanshi's moment:</b> a lorikeet landing on her hand, and cracking a crab claw with the little hammer.</div>
+<div class="go"><b>Getting home:</b> <span class="mrt ne">NE</span> Clarke Quay, or Arka collects from Riverside Point.</div>
+<p class="rain">Rain plan: Penguin Cove and the big aviaries are covered; the bumboats have roofs.</p>
+<div class="pins"><h4>Pins for today</h4><ul><li><span>Mandai Wildlife West</span><a href="https://www.google.com/maps/search/?api=1&query=Mandai%20Wildlife%20West" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Mandai%20Wildlife%20West&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Bird Paradise</span><a href="https://www.google.com/maps/search/?api=1&query=Bird%20Paradise%20Singapore" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Bird%20Paradise%20Singapore&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Rainforest Wild Asia</span><a href="https://www.google.com/maps/search/?api=1&query=Rainforest%20Wild%20Asia" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Rainforest%20Wild%20Asia&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Clarke Quay Jetty (river cruise)</span><a href="https://www.google.com/maps/search/?api=1&query=Singapore%20River%20Cruise%20Clarke%20Quay%20Jetty" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Singapore%20River%20Cruise%20Clarke%20Quay%20Jetty&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Jumbo Seafood, Riverside Point</span><a href="https://www.google.com/maps/search/?api=1&query=Jumbo%20Seafood%20Riverside%20Point" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Jumbo%20Seafood%20Riverside%20Point&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Palm Beach Seafood (alt.)</span><a href="https://www.google.com/maps/search/?api=1&query=Palm%20Beach%20Seafood%20One%20Fullerton" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Palm%20Beach%20Seafood%20One%20Fullerton&travelmode=transit" target="_blank" rel="noopener">Go</a></li></ul></div>
+
+</div>
+</details>
+
+<details class="day fam" id="d7">
+<summary><span class="n">7</span><span class="t"><b>Saturday 24 Oct — The ridge, the cable car, the hidden beach, and a send‑off</b><span>With Arka &amp; Nanki · Henderson Waves · cable car to Sentosa · Labrador to VivoCity · Swapnadeep flies 20.40</span></span></summary>
+<div class="body">
+<div class="slot"><div class="when">07.30</div><div class="what">
+<div class="us"><b>All of you:</b> Arka drives to <strong>HortPark</strong> for the <strong>Southern Ridges</strong> — the short version: HortPark → Alexandra Arch → the <strong>Forest Walk</strong> (a steel walkway threaded through the canopy of Telok Blangah Hill, 18 metres up) → <strong>Henderson Waves</strong>, Singapore's highest pedestrian bridge, curling like a ribbon 36 metres above the road → <strong>Mount Faber</strong>. About 4km and 1.5–2 hours at a chatting pace, shaded most of the way, and cool at this hour. Coffee and the harbour view at Faber Peak at the top.</div>
+</div></div>
+<div class="slot"><div class="when">09.45</div><div class="what">
+<p>Board the <strong>Singapore Cable Car</strong> at Mount Faber station (ask for a glass‑floor cabin) and float over the harbour to Sentosa: ships, the port cranes, the island unrolling underneath. Switch at Imbiah to the <strong>Sentosa Line</strong> out to Siloso Point for the free <strong>Fort Siloso Skywalk</strong>, an 11‑storey treetop walkway above the WWII fort, then ride the cable car all the way back across to HarbourFront (the Sky Pass is unlimited rides).</p>
+</div></div>
+<div class="slot"><div class="when">12.30</div><div class="what">
+<div class="eat"><b>Lunch:</b> <strong>VivoCity</strong> — <strong>Tim Ho Wan</strong> (the Michelin dim sum: baked BBQ pork buns) or <strong>Din Tai Fung</strong> if Monday's xiao long bao are already missed.</div>
+</div></div>
+<div class="slot"><div class="when">14.30</div><div class="what">
+<p>One MRT stop or a five‑minute drive to <span class="mrt cc">CC</span> Labrador Park. Walk the <strong>Berlayer Creek</strong> mangrove boardwalk down to the sea, then <strong>Labrador Nature Reserve</strong>: the little beach and jetty facing Sentosa, the old British gun emplacements, kingfishers and monitor lizards in the trees. It's the quietest coast in the city and the light after 4pm is gold.</p>
+</div></div>
+<div class="slot"><div class="when">16.00</div><div class="what">
+<p><span class="opt">Optional</span>Then the <strong>Bukit Chermin boardwalk</strong> along the cliff, round Keppel Bay past the marina and the Reflections towers, along the waterfront promenade and into <strong>VivoCity</strong> — about 45 minutes of flat walking with the sea on your right the whole way. Ice cream at VivoCity's rooftop Sky Park while the harbour goes orange.</p>
+</div></div>
+<div class="slot"><div class="when">17.30</div><div class="what">
+<p>Drive to <strong>Changi Terminal 3</strong> (25 minutes) for Swapnadeep's 20.40 flight. Bag drop, then everyone walks through to Jewel.</p>
+<div class="eat"><b>Send‑off dinner at Jewel:</b> <strong>Shake Shack</strong> under the Vortex for Ayanshi's vote, or <strong>Tanuki Raw</strong> for a proper donburi. Catch the 7.30pm Rain Vortex light show together, then Swapnadeep heads through immigration by 7.45.</div>
+</div></div>
+<div class="aya"><b>Ayanshi's moment:</b> walking above the treetops on Henderson Waves, then hanging over the sea in a glass‑floor cabin.</div>
+<p class="rain">Rain plan: start the ridge walk even earlier (7am) to beat a forecast wet afternoon; if it pours at 2pm, swap Labrador for an hour in VivoCity and do the coastal walk after 4.</p>
+<div class="pins"><h4>Pins for today</h4><ul><li><span>HortPark</span><a href="https://www.google.com/maps/search/?api=1&query=HortPark%20Singapore" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=HortPark%20Singapore&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Henderson Waves</span><a href="https://www.google.com/maps/search/?api=1&query=Henderson%20Waves" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Henderson%20Waves&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Mount Faber cable car station</span><a href="https://www.google.com/maps/search/?api=1&query=Mount%20Faber%20Cable%20Car%20Station" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Mount%20Faber%20Cable%20Car%20Station&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Fort Siloso Skywalk</span><a href="https://www.google.com/maps/search/?api=1&query=Fort%20Siloso%20Skywalk" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Fort%20Siloso%20Skywalk&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>VivoCity</span><a href="https://www.google.com/maps/search/?api=1&query=VivoCity" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=VivoCity&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Labrador Park MRT / Berlayer Creek</span><a href="https://www.google.com/maps/search/?api=1&query=Berlayer%20Creek%20Boardwalk" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Berlayer%20Creek%20Boardwalk&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Labrador Nature Reserve</span><a href="https://www.google.com/maps/search/?api=1&query=Labrador%20Nature%20Reserve" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Labrador%20Nature%20Reserve&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Bukit Chermin Boardwalk</span><a href="https://www.google.com/maps/search/?api=1&query=Bukit%20Chermin%20Boardwalk" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Bukit%20Chermin%20Boardwalk&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Changi Airport Terminal 3</span><a href="https://www.google.com/maps/search/?api=1&query=Changi%20Airport%20Terminal%203" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Changi%20Airport%20Terminal%203&travelmode=transit" target="_blank" rel="noopener">Go</a></li></ul></div>
+
+</div>
+</details>
+
+<details class="day fam" id="d8">
+<summary><span class="n">8</span><span class="t"><b>Sunday 25 Oct — Dawn on the beach with the dogs, then the East Coast at leisure</b><span>With Arka, Nanki &amp; the dogs (early only) · ECP · Katong laksa · Coastal PlayGrove · satay on the sand</span></span></summary>
+<div class="body">
+<div class="slot"><div class="when">06.45</div><div class="what">
+<div class="us"><b>All of you, dogs included:</b> out of the house before seven — the dogs' window is the cool of the morning and they're home by ten. Park at <strong>Parkland Green</strong>, walk straight onto the sand. The beach at this hour is joggers, kite‑flyers and the ships turning pink on the horizon; the dogs run the shallows on their leads while Ayanshi collects shells.</div>
+</div></div>
+<div class="slot"><div class="when">07.30</div><div class="what">
+<p>Rent bicycles at the Parkland Green kiosk (kids' bikes, tandems, a family bike with a bench for the dogs' humans to rotate) and ride the seafront path east towards Bedok Jetty and back — flat, shaded, 40 minutes at Ayanshi's pace — while Nanki and Arka walk the dogs the shorter loop and meet you at the jetty.</p>
+</div></div>
+<div class="slot"><div class="when">08.45</div><div class="what">
+<div class="eat"><b>Breakfast:</b> the dog‑friendly terraces at Parkland Green — eggs, pancakes and iced coffee at one of the cafés with the dogs under the table.</div>
+</div></div>
+<div class="slot"><div class="when">09.45</div><div class="what">
+<p>Home with the dogs before the heat. Showers, a slow late morning, and the dogs sleep it off in the air‑con.</p>
+</div></div>
+<div class="slot"><div class="when">12.00</div><div class="what">
+<div class="us"><b>Back out, without the dogs:</b> <strong>Katong–Joo Chiat</strong>, the Peranakan neighbourhood. The pastel shophouses on <strong>Koon Seng Road</strong> for photos, <strong>Rumah Bebe</strong> for beaded slippers and kebaya, <strong>Kim Choo Kueh Chang</strong> for kueh.</div>
+<div class="eat"><b>Lunch:</b> <strong>328 Katong Laksa</strong> (thick rice noodles in coconut curry, eaten with a spoon only), then <strong>Chin Mee Chin Confectionery</strong> for old‑school custard puffs, then <strong>Birds of Paradise</strong> gelato (pandan, or white chrysanthemum).</div>
+</div></div>
+<div class="slot"><div class="when">15.30</div><div class="what">
+<p><span class="opt">Optional</span>Back to East Coast Park once the sun tilts: <strong>Coastal PlayGrove</strong> (free) — Singapore's tallest outdoor play tower, giant tube slides and a water‑play area. Change of clothes for Ayanshi. Then a rug on the sand, kites if there's wind, a swim if the tide's right.</p>
+</div></div>
+<div class="slot"><div class="when">18.15</div><div class="what">
+<div class="eat"><b>Dinner:</b> <strong>East Coast Lagoon Food Village</strong>, a hawker centre on the sand. Satay by the dozen, BBQ chicken wings, sambal stingray, Hokkien mee, a whole coconut each, sunset behind the ships.</div>
+</div></div>
+<div class="aya"><b>Ayanshi's moment:</b> the dogs on the beach at sunrise, then the PlayGrove slides and satay smoke at sunset.</div>
+<p class="rain">Rain plan: a wet dawn means the dogs stay home and the morning becomes a lazy one; do Katong for lunch and the PlayGrove after 5pm when storms usually clear. The dogs get their beach walk Saturday morning instead.</p>
+<div class="pins"><h4>Pins for today</h4><ul><li><span>Parkland Green, East Coast Park</span><a href="https://www.google.com/maps/search/?api=1&query=Parkland%20Green%20East%20Coast%20Park" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Parkland%20Green%20East%20Coast%20Park&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Bedok Jetty</span><a href="https://www.google.com/maps/search/?api=1&query=Bedok%20Jetty" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Bedok%20Jetty&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Koon Seng Road shophouses</span><a href="https://www.google.com/maps/search/?api=1&query=Koon%20Seng%20Road%20Singapore" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Koon%20Seng%20Road%20Singapore&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>328 Katong Laksa</span><a href="https://www.google.com/maps/search/?api=1&query=328%20Katong%20Laksa" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=328%20Katong%20Laksa&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Chin Mee Chin Confectionery</span><a href="https://www.google.com/maps/search/?api=1&query=Chin%20Mee%20Chin%20Confectionery" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Chin%20Mee%20Chin%20Confectionery&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Birds of Paradise, Katong</span><a href="https://www.google.com/maps/search/?api=1&query=Birds%20of%20Paradise%20Gelato%20East%20Coast%20Road" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Birds%20of%20Paradise%20Gelato%20East%20Coast%20Road&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Coastal PlayGrove</span><a href="https://www.google.com/maps/search/?api=1&query=Coastal%20PlayGrove%20East%20Coast%20Park" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Coastal%20PlayGrove%20East%20Coast%20Park&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>East Coast Lagoon Food Village</span><a href="https://www.google.com/maps/search/?api=1&query=East%20Coast%20Lagoon%20Food%20Village" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=East%20Coast%20Lagoon%20Food%20Village&travelmode=transit" target="_blank" rel="noopener">Go</a></li></ul></div>
+</div>
+</details>
+
+<details class="day" id="d9">
+<summary><span class="n">9</span><span class="t"><b>Monday 26 Oct — Universal Studios Singapore</b><span>Full park hours, no Halloween Horror Nights tonight · Minion Land · Trick or Thrills</span></span></summary>
+<div class="body">
+<div class="go"><b>Get there:</b> <span class="mrt ne">NE</span><span class="mrt cc">CC</span> HarbourFront → VivoCity L3 → Sentosa Express to Resorts World, or Arka drops you at the Universal entrance. Be at the globe by 9.30 for a 10am open.</div>
+<div class="slot"><div class="when">10.00</div><div class="what">
+<p><strong>The clockwise plan.</strong> Through Hollywood without stopping, straight to <strong>Minion Land</strong> (Despicable Me Minion Mayhem, Silly Swirly, Buggie Boggie), then <strong>Far Far Away</strong>: <strong>Puss in Boots' Giant Journey</strong> coaster (1.00m), Enchanted Airways, Shrek 4‑D.</p>
+</div></div>
+<div class="slot"><div class="when">12.15</div><div class="what">
+<div class="eat"><b>Lunch:</b> <strong>Mel's Drive‑In</strong> burgers and shakes or <strong>Goldilocks</strong> in Far Far Away. Eat at 12 sharp, before the rush.</div>
+</div></div>
+<div class="slot"><div class="when">13.00</div><div class="what">
+<p><strong>The Lost World</strong>: <strong>Jurassic Park Rapids Adventure</strong> (1.07m; you will be drenched — ponchos), Canopy Flyer, Dino‑Soarin'. <strong>Ancient Egypt</strong>: <strong>Revenge of the Mummy</strong> is a fast indoor coaster in the dark, minimum 1.22m — Treena decides. <strong>Sci‑Fi City</strong>: <strong>Transformers: The Ride 3D</strong> (1.02m) is the best ride in the park. <strong>New York</strong>: Sesame Street Spaghetti Space Chase, and the Lights, Camera, Action! hurricane show.</p>
+</div></div>
+<div class="slot"><div class="when">Between rides</div><div class="what">
+<p><strong>Trick or Thrills</strong> (daytime family Halloween, through 1 Nov): the Minions' live Halloween show, a trick‑or‑treat candy trail through the park, characters in costume. Times are on the park map — plan the afternoon around the Minions show. Ayanshi can wear a costume.</p>
+</div></div>
+<div class="slot"><div class="when">Closing</div><div class="what">
+<p>Transformers or Puss in Boots once more in the last hour when the queues collapse, then the Universal Store on the way out.</p>
+</div></div>
+<div class="eat"><b>Dinner:</b> quick — the RWS outlets by the exit, or <strong>Toast Box</strong> at VivoCity for laksa and kaya toast on the way home.</div>
+<div class="aya"><b>Ayanshi's moment:</b> the whole day — but Transformers will be the one she describes to her friends.</div>
+<p class="rain">Rain plan: most rides are indoors or run in rain; only the outdoor coasters pause for lightning. A rainy morning means shorter queues.</p>
+<div class="pins"><h4>Pins for today</h4><ul><li><span>Universal Studios Singapore</span><a href="https://www.google.com/maps/search/?api=1&query=Universal%20Studios%20Singapore" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Universal%20Studios%20Singapore&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Resorts World station (Sentosa Express)</span><a href="https://www.google.com/maps/search/?api=1&query=Resorts%20World%20Sentosa%20Express%20Station" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Resorts%20World%20Sentosa%20Express%20Station&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Toast Box, VivoCity</span><a href="https://www.google.com/maps/search/?api=1&query=Toast%20Box%20VivoCity" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Toast%20Box%20VivoCity&travelmode=transit" target="_blank" rel="noopener">Go</a></li></ul></div>
+
+</div>
+</details>
+
+<details class="day" id="d10">
+<summary><span class="n">10</span><span class="t"><b>Tuesday 27 Oct — Ayanshi runs a city, then everyone races</b><span>KidZania at The Palawan · Palawan beach · HyperDrive go‑karts with Arka &amp; Nanki</span></span></summary>
+<div class="body">
+<div class="go"><b>Get there:</b> Sentosa Express to Beach Station, then the free beach tram one stop east to Palawan; <strong>The Palawan @ Sentosa</strong> is the cluster of new venues on Palawan Beach.</div>
+<div class="slot"><div class="when">10.00</div><div class="what">
+<p><strong>KidZania Singapore</strong> (opening slot). A child‑sized city where Ayanshi is the grown‑up: she gets a "passport" and KidZos currency, then works shifts — pilot, firefighter, surgeon, news anchor, chocolate‑factory hand, courier — earning and spending as she goes. Parents watch from the sidelines or the café; it's designed for her to run it herself. Plan 4–5 hours; the queues for the flight simulator and fire engine are shortest first thing.</p>
+</div></div>
+<div class="slot"><div class="when">14.30</div><div class="what">
+<div class="eat"><b>Late lunch:</b> the food hall inside The Palawan, or a beach table at one of the Palawan restaurants.</div>
+</div></div>
+<div class="slot"><div class="when">15.30</div><div class="what">
+<p><span class="opt">Optional</span>Palawan Beach — swim, the suspension bridge if it wasn't done on Thursday, or the <strong>Splash Tribe</strong> beach club's kids' waterslides and pool at The Palawan if the beach is hot.</p>
+</div></div>
+<div class="slot"><div class="when">18.30</div><div class="what">
+<div class="us"><b>With Arka &amp; Nanki after work:</b> <strong>HyperDrive</strong>, the electric go‑kart circuit inside The Palawan — three floors of track, a family race with everyone timed on the board. Check Ayanshi's height at the counter for the junior kart tier (around 1.30m); if she's just under, she rides tandem with one of you. Book the session in advance — evenings fill.</div>
+</div></div>
+<div class="slot"><div class="when">20.00</div><div class="what">
+<div class="eat"><b>Dinner:</b> <strong>Korean barbecue</strong> in Tanjong Pagar, Singapore's Korea‑town, 10 minutes' drive from Sentosa — <strong>Wang Dae Bak</strong> (charcoal, the original) or <strong>8 Korean BBQ</strong> (eight marinades of pork belly, more polished). Ayanshi runs the tongs; order the kimchi pancake and the cheese corn.</div>
+</div></div>
+<div class="aya"><b>Ayanshi's moment:</b> her first salary in KidZos, then beating Arka on the leaderboard.</div>
+<p class="rain">Rain plan: KidZania and HyperDrive are both indoors; the beach hour is the only thing weather can touch.</p>
+<div class="pins"><h4>Pins for today</h4><ul><li><span>KidZania Singapore</span><a href="https://www.google.com/maps/search/?api=1&query=KidZania%20Singapore" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=KidZania%20Singapore&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>The Palawan @ Sentosa</span><a href="https://www.google.com/maps/search/?api=1&query=The%20Palawan%20at%20Sentosa" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=The%20Palawan%20at%20Sentosa&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>HyperDrive go‑karts</span><a href="https://www.google.com/maps/search/?api=1&query=HyperDrive%20Sentosa" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=HyperDrive%20Sentosa&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Wang Dae Bak, Tanjong Pagar</span><a href="https://www.google.com/maps/search/?api=1&query=Wang%20Dae%20Bak%20Korean%20BBQ%20Tanjong%20Pagar" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Wang%20Dae%20Bak%20Korean%20BBQ%20Tanjong%20Pagar&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>8 Korean BBQ, Tanjong Pagar</span><a href="https://www.google.com/maps/search/?api=1&query=8%20Korean%20BBQ%20Tanjong%20Pagar" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=8%20Korean%20BBQ%20Tanjong%20Pagar&travelmode=transit" target="_blank" rel="noopener">Go</a></li></ul></div>
+
+</div>
+</details>
+
+<details class="day" id="d11">
+<summary><span class="n">11</span><span class="t"><b>Wednesday 28 Oct — Science, snow, and a lake garden</b><span>Science Centre · Snow City · Jurong Lake Gardens · bak kut teh</span></span></summary>
+<div class="body">
+<div class="go"><b>Get there:</b> <span class="mrt ew">EW</span><span class="mrt ns">NS</span> Jurong East, Exit A, then a 10‑minute walk (or bus 66 / 335, two stops) to the Science Centre.</div>
+<div class="slot"><div class="when">10.00</div><div class="what">
+<p><strong>Science Centre Singapore.</strong> Hands‑on halls on the body, sound, optical illusions and dinosaurs; catch the <strong>Fire Tornado</strong> and <strong>Tesla coil</strong> shows (times at the entrance). One <strong>Omni‑Theatre</strong> dome film — the eight‑storey screen is a real wow. 2.5 hours.</p>
+</div></div>
+<div class="slot"><div class="when">12.30</div><div class="what">
+<div class="eat"><b>Lunch:</b> Westgate or JEM malls at the station — top‑floor food courts, and Ayanshi's first bubble tea.</div>
+</div></div>
+<div class="slot"><div class="when">14.00</div><div class="what">
+<p><strong>Snow City</strong>, next to the Science Centre: a –5°C indoor snow chamber with a three‑storey snow slide and a snowball zone, jackets and boots provided. One‑hour sessions. For a child from Kolkata this is the surprise of the trip. Socks and gloves (they rent gloves).</p>
+</div></div>
+<div class="slot"><div class="when">15.45</div><div class="what">
+<p><span class="opt">Optional</span><strong>Jurong Lake Gardens</strong> (free), <span class="mrt ew">EW</span> one stop to Lakeside. <strong>Forest Ramble</strong> is a huge nature playground (rope courses, giant swings, a pelican climb); <strong>Clusia Cove</strong> is a tidal water‑play beach. Then the boardwalk past the Chinese Garden's seven‑storey pagoda for sunset.</p>
+</div></div>
+<div class="eat"><b>Dinner:</b> back at Jurong East — <strong>Song Fa Bak Kut Teh</strong> at JEM: peppery pork‑rib soup, refilled free, with dough fritters to dip and braised peanuts.</div>
+<div class="aya"><b>Ayanshi's moment:</b> snow. Real snow. Then the biggest playground she's ever seen.</div>
+<p class="rain">Rain plan: Science Centre + Snow City + the malls cover the whole day; the gardens are a bonus. If you'd rather have a water park, <strong>Adventure Cove</strong> on Sentosa (snorkelling with 20,000 reef fish, a lazy river through an underwater tunnel) swaps in for this whole day.</p>
+<div class="pins"><h4>Pins for today</h4><ul><li><span>Science Centre Singapore</span><a href="https://www.google.com/maps/search/?api=1&query=Science%20Centre%20Singapore" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Science%20Centre%20Singapore&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Snow City</span><a href="https://www.google.com/maps/search/?api=1&query=Snow%20City%20Singapore" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Snow%20City%20Singapore&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Westgate / JEM (lunch)</span><a href="https://www.google.com/maps/search/?api=1&query=JEM%20Jurong%20East" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=JEM%20Jurong%20East&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Jurong Lake Gardens (Forest Ramble)</span><a href="https://www.google.com/maps/search/?api=1&query=Forest%20Ramble%20Jurong%20Lake%20Gardens" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Forest%20Ramble%20Jurong%20Lake%20Gardens&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Song Fa Bak Kut Teh, JEM</span><a href="https://www.google.com/maps/search/?api=1&query=Song%20Fa%20Bak%20Kut%20Teh%20JEM" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Song%20Fa%20Bak%20Kut%20Teh%20JEM&travelmode=transit" target="_blank" rel="noopener">Go</a></li></ul></div>
+
+</div>
+</details>
+
+<details class="day" id="d12">
+<summary><span class="n">12</span><span class="t"><b>Thursday 29 Oct — A university, a dinosaur museum, an easy afternoon, Italian for dinner</b><span>NUS campus · Lee Kong Chian Natural History Museum · Haw Par Villa (optional) · Casa Vostra</span></span></summary>
+<div class="body">
+<div class="go"><b>Get there:</b> <span class="mrt cc">CC</span> Kent Ridge, Exit A. The <strong>NUS internal shuttle buses</strong> are free and open to visitors — hop on D2 or A1 at the stop outside the station to loop the campus.</div>
+<div class="slot"><div class="when">09.30</div><div class="what">
+<p><strong>National University of Singapore.</strong> Ride the shuttle up to <strong>University Town</strong>: the student green, the Education Resource Centre, the residential colleges, Starbucks full of laptops — a real look at what studying here is like. Then the shuttle back down past the Faculty of Science to the museums.</p>
+</div></div>
+<div class="slot"><div class="when">11.00</div><div class="what">
+<p><strong>Lee Kong Chian Natural History Museum</strong> (5 minutes from Kent Ridge station): three real sauropod dinosaur skeletons — Prince, Apollonia and Twinky — a sperm whale skeleton overhead, and 2,000 Southeast Asian specimens. Ninety minutes. Open today (closed Mondays). <span class="opt">Optional</span>The free <strong>NUS Museum</strong> next door is a quick extra.</p>
+</div></div>
+<div class="slot"><div class="when">12.45</div><div class="what">
+<div class="eat"><b>Lunch:</b> eat like a student — the <strong>Fine Food</strong> food court at UTown (S$5 plates, everything from Japanese to Western) or <strong>The Deck</strong> canteen on the Arts side.</div>
+</div></div>
+<div class="slot"><div class="when">14.15</div><div class="what">
+<p><span class="opt">Optional</span><strong>Haw Par Villa</strong>, one stop on <span class="mrt cc">CC</span> to Haw Par Villa station, at the gate: a free, gloriously odd 1937 park of a thousand painted statues from Chinese mythology built by the Tiger Balm brothers. An hour. The Ten Courts of Hell hall is graphic — Treena decides whether Ayanshi goes in. Otherwise: home, pool, rest. This is the deliberately light afternoon of the week.</p>
+</div></div>
+<div class="slot"><div class="when">18.00</div><div class="what">
+<div class="eat"><b>Dinner:</b> <strong>Casa Vostra</strong> at Raffles City (<span class="mrt ew">EW</span><span class="mrt ns">NS</span> City Hall, Exit A, straight into the mall) — proper Italian at hawker‑ish prices: wood‑fired pizzas, the tagliatelle al ragù, tiramisu. It's walk‑in only with a queue that builds from 6.30, so be there at 6 sharp. After, the five‑minute walk to the <strong>Raffles Hotel</strong> arcade to see the white colonnades lit up.</div>
+</div></div>
+<div class="aya"><b>Ayanshi's moment:</b> standing under a real 27‑metre dinosaur.</div>
+<p class="rain">Rain plan: the museums are indoors; Haw Par Villa is the only thing weather can touch and it's optional anyway.</p>
+<div class="pins"><h4>Pins for today</h4><ul><li><span>Kent Ridge MRT</span><a href="https://www.google.com/maps/search/?api=1&query=Kent%20Ridge%20MRT%20Station" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Kent%20Ridge%20MRT%20Station&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>NUS University Town</span><a href="https://www.google.com/maps/search/?api=1&query=University%20Town%20NUS" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=University%20Town%20NUS&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Lee Kong Chian Natural History Museum</span><a href="https://www.google.com/maps/search/?api=1&query=Lee%20Kong%20Chian%20Natural%20History%20Museum" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Lee%20Kong%20Chian%20Natural%20History%20Museum&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>NUS Museum</span><a href="https://www.google.com/maps/search/?api=1&query=NUS%20Museum" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=NUS%20Museum&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Fine Food, UTown</span><a href="https://www.google.com/maps/search/?api=1&query=Fine%20Food%20University%20Town%20NUS" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Fine%20Food%20University%20Town%20NUS&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Haw Par Villa</span><a href="https://www.google.com/maps/search/?api=1&query=Haw%20Par%20Villa" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Haw%20Par%20Villa&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Casa Vostra, Raffles City</span><a href="https://www.google.com/maps/search/?api=1&query=Casa%20Vostra%20Raffles%20City" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Casa%20Vostra%20Raffles%20City&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Raffles Hotel Singapore</span><a href="https://www.google.com/maps/search/?api=1&query=Raffles%20Hotel%20Singapore" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Raffles%20Hotel%20Singapore&travelmode=transit" target="_blank" rel="noopener">Go</a></li></ul></div>
+</div>
+</details>
+
+<details class="day" id="d13">
+<summary><span class="n">13</span><span class="t"><b>Friday 30 Oct — Into the rainforest at MacRitchie, sushi, then Arab Street by night</b><span>TreeTop Walk · macaques · Omote at Upper Thomson · Sultan Mosque · Haji Lane · Turkish or Lebanese</span></span></summary>
+<div class="body">
+<div class="go"><b>Get there:</b> Grab to the <strong>Venus Drive car park</strong> (Windsor Nature Park) — the shortest route to the TreeTop Walk — or <span class="mrt cc">CC</span> Marymount, Exit A, 10 minutes' walk to MacRitchie Reservoir Park for the longer loop. Start by 8.30: it's cool, the monkeys are out, and the TreeTop Walk opens at 9.</div>
+<div class="slot"><div class="when">08.30</div><div class="what">
+<p><strong>MacRitchie Reservoir</strong> — Singapore's oldest reservoir, wrapped in primary rainforest in the dead centre of the island. From Venus Drive the trail runs through Windsor Nature Park and up the boardwalks to the <strong>TreeTop Walk</strong>, a 250‑metre suspension bridge 25 metres up in the canopy between the two highest points in the reserve — one‑way traffic, hornbills and long‑tailed macaques at eye level (bags zipped, no food in hand). About 3.5km each way, 2.5–3 hours in total with the bridge and the Jelutong Tower lookout. Bring 1.5 litres of water each, hats, and repellent; there's nothing to buy inside.</p>
+<p><span class="opt">Optional</span>The full 11km loop back to MacRitchie Reservoir Park along the water and the Prunus boardwalks is beautiful but a real hike — only if all three are fresh.</p>
+</div></div>
+<div class="slot"><div class="when">12.00</div><div class="what">
+<div class="eat"><b>Lunch:</b> <strong>Omote</strong> at Thomson Plaza, ten minutes from the trailhead — the chirashi don is the order, plus the aburi salmon and a bowl of udon for Ayanshi. It's a queue restaurant; arriving at 11.45 when it opens beats the lunch rush.</div>
+</div></div>
+<div class="slot"><div class="when">14.00</div><div class="what">
+<p>Home to shower and rest — the afternoon is deliberately empty after a morning on foot.</p>
+</div></div>
+<div class="slot"><div class="when">18.00</div><div class="what">
+<p><strong>Kampong Glam / Arab Street</strong>, <span class="mrt ew">EW</span><span class="mrt dt">DT</span> Bugis, Exit B, 10 minutes' walk. The golden‑domed <strong>Sultan Mosque</strong> (visitors welcome outside prayer times; robes provided), Bussorah Street's palm‑lined approach, then <strong>Haji Lane</strong> for the murals, vintage shops and the best selfie wall in the city.</p>
+<div class="eat"><b>Dinner:</b> Middle Eastern on Bussorah or Arab Street — <strong>Alaturka</strong> (Turkish: pide, lamb kebabs, a mezze spread Ayanshi can graze) or <strong>Beirut Grill</strong> (Lebanese, the mixed grill and the hummus). Dessert: ice cream on Haji Lane.</div>
+</div></div>
+<div class="aya"><b>Ayanshi's moment:</b> a monkey watching her cross a bridge in the treetops.</div>
+<p class="rain">Rain plan: the TreeTop Walk closes in thunderstorms; check the forecast the night before and, if the morning looks wet, swap the walk for Adventure Cove and keep the Omote lunch. The bridge is closed on Mondays only, so no clash.</p>
+<div class="pins"><h4>Pins for today</h4><ul><li><span>Venus Drive car park (Windsor Nature Park)</span><a href="https://www.google.com/maps/search/?api=1&query=Venus%20Drive%20Car%20Park%20Windsor%20Nature%20Park" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Venus%20Drive%20Car%20Park%20Windsor%20Nature%20Park&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>MacRitchie Reservoir Park</span><a href="https://www.google.com/maps/search/?api=1&query=MacRitchie%20Reservoir%20Park" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=MacRitchie%20Reservoir%20Park&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>MacRitchie TreeTop Walk</span><a href="https://www.google.com/maps/search/?api=1&query=MacRitchie%20TreeTop%20Walk" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=MacRitchie%20TreeTop%20Walk&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Omote, Thomson Plaza</span><a href="https://www.google.com/maps/search/?api=1&query=Omote%20Thomson%20Plaza" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Omote%20Thomson%20Plaza&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Bugis MRT</span><a href="https://www.google.com/maps/search/?api=1&query=Bugis%20MRT%20Station" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Bugis%20MRT%20Station&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Sultan Mosque</span><a href="https://www.google.com/maps/search/?api=1&query=Sultan%20Mosque" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Sultan%20Mosque&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Haji Lane</span><a href="https://www.google.com/maps/search/?api=1&query=Haji%20Lane" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Haji%20Lane&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Alaturka, Bussorah St</span><a href="https://www.google.com/maps/search/?api=1&query=Alaturka%20Bussorah%20Street" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Alaturka%20Bussorah%20Street&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Beirut Grill, Bussorah St</span><a href="https://www.google.com/maps/search/?api=1&query=Beirut%20Grill%20Bussorah%20Street" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Beirut%20Grill%20Bussorah%20Street&travelmode=transit" target="_blank" rel="noopener">Go</a></li></ul></div>
+</div>
+</details>
+
+<details class="day fam" id="d14">
+<summary><span class="n">14</span><span class="t"><b>Saturday 31 Oct — Botanic Gardens, an osteria in Bukit Timah, Halloween at Jewel, home</b><span>With Arka &amp; Nanki · Jacob Ballas · orchids · Bukit Timah Osteria · early bag‑drop · Canopy Park · flight 20.40</span></span></summary>
+<div class="body">
+<div class="slot"><div class="when">08.30</div><div class="what">
+<div class="us"><b>All of you:</b> pack the night before; bags in the car. <strong>Singapore Botanic Gardens</strong> (UNESCO World Heritage, free) by the Bukit Timah Gate while it's cool: <strong>Jacob Ballas Children's Garden</strong> first — treehouse, suspension bridge, maze, water‑play stream — then Swan Lake and the rainforest trail, and the <strong>National Orchid Garden</strong>, 1,000 species including the orchids named for visiting heads of state. Two and a half hours at a Saturday pace.</div>
+</div></div>
+<div class="slot"><div class="when">11.30</div><div class="what">
+<p><span class="opt">Optional</span>Ten minutes up Bukit Timah Road to the restored 1932 <strong>Bukit Timah Railway Station</strong> on the Rail Corridor — the old KTM line to Malaysia, now a green trail; a 20‑minute stroll on the tracks and the truss bridge, and a photo at the station house. Skip it if the gardens ran long.</p>
+</div></div>
+<div class="slot"><div class="when">12.30</div><div class="what">
+<div class="eat"><b>Last lunch, and the long one:</b> <strong>Bukit Timah Osteria</strong> (booked) — Arka's neighbourhood Italian: burrata, the handmade pasta, a wood‑fired pizza for the table, tiramisu and affogato. Two hours; nobody is in a hurry.</div>
+</div></div>
+<div class="slot"><div class="when">15.00</div><div class="what">
+<p>Drive to <strong>Changi Terminal 3</strong>. Singapore Airlines' early check‑in counters take the bags now; GST refund at the eTRS kiosks first for anything being checked (receipts over S$100 from participating shops). Then everyone walks to Jewel with free hands.</p>
+</div></div>
+<div class="slot"><div class="when">15.45</div><div class="what">
+<p><strong>Canopy Park</strong> (Jewel Level 5): the <strong>Walking Net</strong> and <strong>Bouncing Net</strong> suspended 25 metres above the mall floor, the Hedge Maze, the Mirror Maze, the Discovery Slides and the glass‑floored Canopy Bridge. Then the <strong>Changi Experience Studio</strong> on Level 4 — interactive games about the airport that ten‑year‑olds love. It's Halloween: Jewel dresses up with trails and photo spots — ask at the Level 1 concierge — and Ayanshi wears her costume. Last gifts: Bengawan Solo pandan chiffon, Bee Cheng Hiang bak kwa, Irvins chips, Ya Kun kaya, a Bacha tin — all in Jewel, bought at the end so they travel fresh.</p>
+</div></div>
+<div class="slot"><div class="when">18.00</div><div class="what">
+<div class="eat"><b>Something light together before the gates:</b> a final laksa or kaya toast in Jewel's basement, or <strong>Shake Shack</strong> under the Vortex if Ayanshi's vote carries; the 7.30 Rain Vortex light show is the natural full stop.</div>
+</div></div>
+<div class="slot"><div class="when">18.45</div><div class="what">
+<p>Hugs at the T3 departure gates. Airside with 90 minutes to spare: the <strong>Butterfly Garden</strong> in T3, and the <strong>Slide@T3</strong>, a 12‑metre spiral slide, for one last go.</p>
+</div></div>
+<div class="aya"><b>Ayanshi's moment:</b> bouncing on a net five storeys above the waterfall she saw on the first morning. Full circle.</div>
+<p class="rain">Rain plan: a wet morning means the gardens shrink to the Orchid Garden's covered walkways and lunch moves earlier; everything from 3pm is indoors.</p>
+<div class="pins"><h4>Pins for today</h4><ul><li><span>Botanic Gardens, Bukit Timah Gate</span><a href="https://www.google.com/maps/search/?api=1&query=Singapore%20Botanic%20Gardens%20Bukit%20Timah%20Gate" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Singapore%20Botanic%20Gardens%20Bukit%20Timah%20Gate&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Jacob Ballas Children's Garden</span><a href="https://www.google.com/maps/search/?api=1&query=Jacob%20Ballas%20Children%27s%20Garden" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Jacob%20Ballas%20Children%27s%20Garden&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>National Orchid Garden</span><a href="https://www.google.com/maps/search/?api=1&query=National%20Orchid%20Garden" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=National%20Orchid%20Garden&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Bukit Timah Railway Station</span><a href="https://www.google.com/maps/search/?api=1&query=Bukit%20Timah%20Railway%20Station" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Bukit%20Timah%20Railway%20Station&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Bukit Timah Osteria (Arka books)</span><a href="https://www.google.com/maps/search/?api=1&query=Bukit%20Timah%20Osteria%20Singapore" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Bukit%20Timah%20Osteria%20Singapore&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Changi Airport Terminal 3</span><a href="https://www.google.com/maps/search/?api=1&query=Changi%20Airport%20Terminal%203" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Changi%20Airport%20Terminal%203&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Canopy Park, Jewel</span><a href="https://www.google.com/maps/search/?api=1&query=Canopy%20Park%20Jewel%20Changi" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Canopy%20Park%20Jewel%20Changi&travelmode=transit" target="_blank" rel="noopener">Go</a></li><li><span>Changi Experience Studio</span><a href="https://www.google.com/maps/search/?api=1&query=Changi%20Experience%20Studio" target="_blank" rel="noopener">Map</a><a href="https://www.google.com/maps/dir/?api=1&destination=Changi%20Experience%20Studio&travelmode=transit" target="_blank" rel="noopener">Go</a></li></ul></div>
+</div>
+</details>
+
+<!-- ============ FOOD ============ -->
+<h2 id="food">The eat‑everything list</h2>
+<p>Nothing Indian, by request. Tick them off as you go.</p>
+<div class="two">
+<ul class="check">
+<li><strong>Kaya toast, soft eggs, kopi</strong> — Ya Kun at Jewel, Chin Mee Chin (Days 1, 8)</li>
+<li><strong>Satay on a closed street</strong> — Boon Tat Street at Lau Pa Sat (Day 2)</li>
+<li><strong>Xiao long bao</strong> — Din Tai Fung, Paragon (Day 1)</li>
+<li><strong>Roast duck</strong> — Noodle King (Day 4)</li>
+<li><strong>Satay by the Bay</strong> — inside Gardens by the Bay (Day 2)</li>
+<li><strong>Hainanese chicken rice</strong> — Tian Tian, Maxwell, or Hawker Chan at Chinatown Complex (Day 4)</li>
+<li><strong>Korean BBQ</strong> — Wang Dae Bak / 8 Korean BBQ, Tanjong Pagar (Day 10)</li>
+<li><strong>Chilli crab &amp; black pepper crab</strong> — Jumbo, Riverside Point (Day 6)</li>
+<li><strong>Dim sum</strong> — Tim Ho Wan, VivoCity (Day 7)</li>
+</ul>
+<ul class="check">
+<li><strong>Katong laksa</strong> — 328 Katong Laksa (Day 8)</li>
+<li><strong>Beach hawker</strong> — East Coast Lagoon: satay, stingray, chicken wings (Day 8)</li>
+<li><strong>Bak kut teh</strong> — Song Fa (Day 11)</li>
+<li><strong>Sushi</strong> — Omote (Day 13)</li>
+<li><strong>Italian</strong> — Casa Vostra (Day 12), Bukit Timah Osteria (Day 14)</li>
+<li><strong>Bacha Coffee</strong> — ION Orchard (Day 1)</li>
+<li><strong>Chwee kueh &amp; lor mee</strong> — Tiong Bahru Market (Day 4)</li>
+<li><strong>Kouign‑amann</strong> — Tiong Bahru Bakery (Day 4)</li>
+<li><strong>Turkish / Lebanese</strong> — Alaturka or Beirut Grill, Arab Street (Day 13)</li>
+<li><strong>Vietnamese</strong> — Mrs Pho, any spare lunch</li>
+<li><strong>Chendol / ice kacang / bubble tea</strong> — any hawker dessert stall, daily; <strong>durian</strong> once, from a stall on Geylang or Sims Avenue, if anyone dares</li>
+</ul>
+</div>
+
+<!-- ============ AYANSHI ============ -->
+<h2 id="ayanshi">Ayanshi's own list</h2>
+<p>Print this for her. Things a ten‑year‑old will remember, in trip order.</p>
+<ol>
+<li>The world's tallest indoor waterfall, before breakfast; hot chocolate from a golden pot (Day 1)</li>
+<li>Her drawing swimming across a wall, the city from the top of the "ship", then the Supertrees singing (Day 2)</li>
+<li>A tram through the jungle in the dark with animals next to her (Day 3)</li>
+<li>A kouign‑amann, full‑body VR, then lanterns in Chinatown (Day 4)</li>
+<li>Driving her own luge, then fireworks on the sea (Day 5)</li>
+<li>Parrots on her arm; cracking a crab with a hammer (Day 6)</li>
+<li>Walking above the treetops, then a glass‑floor cabin over the sea (Day 7)</li>
+<li>The tallest playground tower in Singapore and satay on the beach with the dogs (Day 8)</li>
+<li>Universal Studios, all of it, plus Halloween trick‑or‑treating (Day 9)</li>
+<li>Earning her first salary as a pilot and a firefighter, racing go‑karts against Arka, then cooking dinner over charcoal (Day 10)</li>
+<li>Real snow (Day 11)</li>
+<li>Standing under a real dinosaur skeleton (Day 12)</li>
+<li>A monkey watching her cross a bridge 25 metres up in the rainforest (Day 13)</li>
+<li>Bouncing on a net five storeys up before flying home (Day 14)</li>
+</ol>
+<div class="note">
+<p><strong>Little things that help with a ten‑year‑old here:</strong> swimwear under clothes on Days 3, 5, 8, 10 and 14 (every one has water); a small backpack of her own with a refillable bottle (fountains are everywhere and tap water is safe); a light rain poncho rather than an umbrella; a Halloween costume that fits in the bag; and one "her choice" hour a day — she'll spot bubble tea, claw machines and Pokémon merchandise long before you do.</p>
+</div>
+
+<!-- ============ PACK ============ -->
+<h2 id="pack">Weather and what to pack</h2>
+<p>Late October is the turn into the north‑east monsoon: 25–33°C, 80%+ humidity, sunny mornings and a fast, loud thunderstorm most afternoons that clears within the hour. Dress for Kolkata in September and you'll be right.</p>
+<div class="two">
+<ul class="check">
+<li>Light cotton/linen clothes; one set that covers shoulders and knees for the temples and the mosque</li>
+<li>Comfortable walking shoes that survive getting wet (Saturday 24 is about 8km on foot), plus sandals; trainers for VR and go‑karts</li>
+<li>Swimwear ×2 each, quick‑dry towel, rash guard for Ayanshi</li>
+<li>Small fold‑up umbrella and a poncho</li>
+<li>Sunscreen SPF50, hats, sunglasses, insect repellent (MacRitchie, the ridge walk, the Night Safari)</li>
+</ul>
+<ul class="check">
+<li><strong>Type G (UK three‑pin) adapter</strong> — Indian plugs don't fit</li>
+<li>Power bank; you'll be on Maps and Grab all day</li>
+<li>Refillable water bottles</li>
+<li>A light layer for the aggressive mall and MRT air‑con, and for Snow City</li>
+<li>Basic medicines; Guardian and Watsons pharmacies are in every mall for anything else</li>
+</ul>
+</div>
+
+<!-- ============ HELP ============ -->
+<h2 id="help">Help, numbers and apps</h2>
+<div class="two">
+<div class="note">
+<h4>Emergencies</h4>
+<ul>
+<li>Police <strong>999</strong> · Ambulance / fire <strong>995</strong> · Non‑emergency ambulance 1777</li>
+<li>High Commission of India, 31 Grange Road: +65 6737 6777</li>
+<li>24h A&amp;E: Raffles Hospital (Bugis), Mount Elizabeth (Orchard), KK Women's &amp; Children's (for Ayanshi)</li>
+<li>Arka's number and home address on a card in Ayanshi's bag</li>
+</ul>
+</div>
+<div class="note">
+<h4>Apps to install before flying</h4>
+<ul>
+<li><strong>Grab</strong> — rides and food delivery</li>
+<li><strong>Google Maps</strong> — best for MRT + bus routing here</li>
+<li><strong>MyTransport.SG</strong> — live bus arrivals</li>
+<li><strong>Chope</strong> — restaurant bookings</li>
+<li><strong>Mandai</strong> and <strong>MySentosa</strong> — park maps, show times, queue times</li>
+<li><strong>Changi App</strong> — arrival terminal, Jewel show times</li>
+</ul>
+</div>
+</div>
+<div class="note">
+<p><strong>Swaps if something falls through:</strong> Adventure Cove Waterpark (snorkel with 20,000 reef fish) for the Science Centre day; the Peranakan Museum near City Hall or the ArtScience Museum's rotating exhibition on a rainy afternoon; Pulau Ubin by bumboat from Changi Village for a car‑free island by bike, if MacRitchie whets the appetite for more.</p>
+</div>
+
+<footer>
+<p>Built for Arka on 20 September 2026. Show times and opening hours change often; the two things worth re‑checking a week out are the Universal park hours for 26 Oct and the Wings of Time and Night Safari show slots. Arka is booking every ticket, table and session named above.</p>
+</footer>
+</main>
+</body>
+</html>
