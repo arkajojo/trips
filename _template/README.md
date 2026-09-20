@@ -1,6 +1,3 @@
-# _template — copy me for the next visit
-
-1. `cp -r _template YYYY-MM-who-where`
-2. Put the itinerary page in as `index.html` and the PDF as `itinerary.pdf`.
-3. `photos.html` works as-is once `photos/photos.json` exists (run `tools/make-gallery.py`).
-4. Add a card to the root `index.html`.
+Folder created by tools/new-trip.py. Put the itinerary page in as index.html (build it the same way — the
+Memories section and per-day photo strips are in the Sengupta page; copy that block into new pages),
+the PDF as itinerary.pdf, and photos into photos/ after the visit.

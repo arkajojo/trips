@@ -3,41 +3,81 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Trips — visits we've hosted in Singapore</title>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+<title>Trips — everyone who has come to stay</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-:root{--paper:#f5f8f3;--ink:#1b2a23;--muted:#5a6b62;--line:#d6ded8;--jade:#0f7b6c;--jade-soft:#dff0ec;--hibiscus:#c8395f;--mustard:#d99a12;--card:#fff}
-@media (prefers-color-scheme:dark){:root{--paper:#131d18;--ink:#e8efe9;--muted:#9fb0a6;--line:#2c3a33;--jade:#4fc3ad;--jade-soft:#17322c;--hibiscus:#f07a98;--mustard:#f2bc3d;--card:#1a2620}}
+:root{--paper:#f5f8f3;--ink:#1b2a23;--muted:#5a6b62;--line:#d6ded8;--jade:#0f7b6c;--jade-soft:#dff0ec;--hibiscus:#c8395f;--hibiscus-soft:#fbe4ea;--mustard:#d99a12;--mustard-soft:#fdf1cf;--sky:#2b6cb0;--sky-soft:#e1ecf8;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--paper:#131d18;--ink:#e8efe9;--muted:#9fb0a6;--line:#2c3a33;--jade:#4fc3ad;--jade-soft:#17322c;--hibiscus:#f07a98;--hibiscus-soft:#3a1f28;--mustard:#f2bc3d;--mustard-soft:#3a2f12;--sky:#7fb3ef;--sky-soft:#1c2c3f;--card:#1a2620}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:Karla,"Segoe UI",Helvetica,Arial,sans-serif;font-size:17px;line-height:1.55}
-main{max-width:720px;margin:0 auto;padding:0 18px 80px}
-.tiles{height:14px;margin:0 -18px 30px;background:repeating-linear-gradient(90deg,var(--jade) 0 24px,var(--hibiscus) 24px 48px,var(--mustard) 48px 72px,var(--jade-soft) 72px 96px)}
-h1{font-family:Fraunces,Georgia,serif;font-size:2.3rem;line-height:1.1;margin:0 0 10px}
-p.lead{color:var(--muted);font-size:1.1rem;margin:0 0 34px;max-width:32em}
-.trip{display:block;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:14px 0}
-.trip:hover{border-color:var(--jade)}
-.trip b{display:block;font-family:Fraunces,Georgia,serif;font-size:1.35rem;margin-bottom:4px}
-.trip span{color:var(--muted);font-size:.95rem}
-.trip .links{margin-top:10px;font-size:.9rem}
-.trip .links em{font-style:normal;color:var(--jade);font-weight:700;margin-right:14px}
-footer{margin-top:50px;font-size:.88rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+main{max-width:860px;margin:0 auto;padding:0 18px 80px}
+.tiles{height:14px;margin:0 -18px 34px;background:repeating-linear-gradient(90deg,var(--jade) 0 24px,var(--hibiscus) 24px 48px,var(--mustard) 48px 72px,var(--jade-soft) 72px 96px)}
+h1{font-family:Fraunces,Georgia,serif;font-size:2.6rem;line-height:1.05;margin:0 0 12px;letter-spacing:-.01em}
+p.lead{color:var(--muted);font-size:1.15rem;margin:0 0 10px;max-width:34em}
+.stats{display:flex;gap:22px;flex-wrap:wrap;margin:18px 0 40px;font-size:.95rem;color:var(--muted)}
+.stats b{font-family:Fraunces,serif;font-size:1.6rem;color:var(--jade);display:block;line-height:1}
+.host{margin-top:44px;border-top:3px solid var(--jade);padding-top:10px}
+.host h2{font-family:Fraunces,Georgia,serif;font-size:1.7rem;margin:0 0 2px}
+.host p{color:var(--muted);margin:0 0 16px}
+.grid{display:grid;grid-template-columns:1fr;gap:14px}
+@media(min-width:640px){.grid{grid-template-columns:1fr 1fr}}
+.card{display:flex;flex-direction:column;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:transform .15s,border-color .15s}
+.card:hover{transform:translateY(-2px);border-color:var(--jade)}
+.cover{aspect-ratio:16/9;background:linear-gradient(135deg,var(--jade-soft),var(--mustard-soft) 60%,var(--hibiscus-soft));background-size:cover;background-position:center;display:flex;align-items:flex-end;padding:12px}
+.cover .badge{font-size:.75rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;background:var(--card);color:var(--jade);border-radius:999px;padding:3px 10px}
+.cover .badge.past{color:var(--muted)}
+.cover .badge.live{color:var(--hibiscus)}
+.body{padding:14px 16px 16px}
+.card b{display:block;font-family:Fraunces,Georgia,serif;font-size:1.3rem;line-height:1.15;margin-bottom:4px}
+.card span{color:var(--muted);font-size:.93rem}
+.links{margin-top:12px;font-size:.9rem;font-weight:700;color:var(--jade)}
+.links em{font-style:normal;margin-right:14px}
+.empty{border:1px dashed var(--line);border-radius:16px;padding:26px;text-align:center;color:var(--muted)}
+footer{margin-top:60px;font-size:.88rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
 </style>
 </head>
 <body>
 <main>
 <div class="tiles"></div>
-<h1>Trips</h1>
-<p class="lead">Every visit we've hosted in Singapore — the plan we made, the PDF, and afterwards the photos. One folder per visit, so it becomes the memory.</p>
-
-<a class="trip" href="2026-10-sengupta-family-singapore/">
-  <b>Treena, Swapnadeep &amp; Ayanshi</b>
-  <span>18–31 October 2026 · 14 days · first visit to Singapore</span>
-  </a>
-<p style="margin:-6px 0 0 20px;font-size:.9rem"><a href="2026-10-sengupta-family-singapore/">Itinerary</a> · <a href="2026-10-sengupta-family-singapore/photos.html">Photos</a> · <a href="2026-10-sengupta-family-singapore/itinerary.pdf">PDF</a></p>
-
-<!-- next visit: copy the block above, change the folder, name and dates -->
-
-<footer>Made by Arka &amp; Nanki, Singapore.</footer>
+<h1>Everyone who came to stay</h1>
+<p class="lead">One page per visit: the plan we made before they landed, and afterwards the photos of what actually happened. Arka's side and Nanki's side, in one place, growing as the years go by.</p>
+<div class="stats" id="stats"></div>
+<div id="hosts"><p class="empty">Loading…</p></div>
+<footer>Kept by Arka &amp; Nanki, Singapore. Source on <a href="https://github.com/arkajojo/trips">GitHub</a>.</footer>
 </main>
+<script>
+(async()=>{
+  const root=document.getElementById('hosts');
+  let data; try{ data=await (await fetch('trips.json',{cache:'no-store'})).json(); }catch(e){ root.innerHTML='<p class="empty">Could not load trips.json</p>'; return; }
+  const today=new Date(); today.setHours(0,0,0,0);
+  const fmt=d=>new Date(d).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});
+  const days=(a,b)=>Math.round((new Date(b)-new Date(a))/864e5);
+  const trips=data.trips.slice().sort((a,b)=>b.start.localeCompare(a.start));
+  const past=trips.filter(t=>new Date(t.end)<today).length;
+  const nights=trips.reduce((n,t)=>n+days(t.start,t.end),0);
+  document.getElementById('stats').innerHTML=`<div><b>${trips.length}</b>visit${trips.length===1?'':'s'}</div><div><b>${nights}</b>nights hosted</div><div><b>${past}</b>albums</div>`;
+  root.innerHTML='';
+  for(const h of data.hosts){
+    const sec=document.createElement('section'); sec.className='host';
+    sec.innerHTML=`<h2>${h.name}'s side</h2><p>${h.blurb||''}</p>`;
+    const mine=trips.filter(t=>t.host===h.id);
+    if(!mine.length){ sec.innerHTML+='<p class="empty">Nobody yet — the first visit goes here.</p>'; root.appendChild(sec); continue; }
+    const grid=document.createElement('div'); grid.className='grid';
+    for(const t of mine){
+      const s=new Date(t.start), e=new Date(t.end);
+      let badge, cls='';
+      if(e<today){ badge=`${days(t.start,t.end)+1} days · album`; cls='past'; }
+      else if(s<=today){ badge='Here now'; cls='live'; }
+      else { badge=`In ${days(today,t.start)} days`; }
+      const cover=t.cover?`style="background-image:url('${t.folder}/${t.cover}')"`:'';
+      grid.innerHTML+=`<a class="card" href="${t.folder}/">
+        <div class="cover" ${cover}><span class="badge ${cls}">${badge}</span></div>
+        <div class="body"><b>${t.title}</b><span>${fmt(t.start)} → ${fmt(t.end)}${t.subtitle?' · '+t.subtitle:''}</span>
+        <div class="links"><em>Itinerary</em><em>Memories</em><em>PDF</em></div></div></a>`;
+    }
+    sec.appendChild(grid); root.appendChild(sec);
+  }
+})();
+</script>
 </body>
 </html>

@@ -1,0 +1,10 @@
+{
+  "hosts": [
+    { "id": "arka",  "name": "Arka",  "blurb": "The Sengupta side — Kolkata, Dehradun and wherever the rest have scattered to." },
+    { "id": "nanki", "name": "Nanki", "blurb": "The Kalra side — parents, siblings and the friends who count as family." }
+  ],
+  "trips": [
+    { "host": "arka", "folder": "arka/2026-10-treena-swapnadeep-ayanshi", "title": "Treena, Swapnadeep & Ayanshi",
+      "subtitle": "Sister, brother-in-law and niece · first visit", "start": "2026-10-18", "end": "2026-10-31" }
+  ]
+}
